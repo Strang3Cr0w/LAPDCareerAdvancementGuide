@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "LAPDCareerAdvancementGuide": {
+      "applicationId": "W4ODQlsrgGOJ6fxJu057HTW3jaXCXjBqeHFWxcp2"
+    },
+    "_default": {
+      "link": "LAPDCareerAdvancementGuide"
+    }
+  }
+}
