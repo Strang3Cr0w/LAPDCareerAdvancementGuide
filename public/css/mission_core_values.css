@@ -74,3 +74,49 @@ ul a{
 ul li a:hover{
     color: yellow;
 }
+
+/* Styles for iPad */
+@media screen and (max-width: 768px) {
+    #wrapper{
+        width: 90%;
+    }
+    
+    p{
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+  }
+
+  
+  
+  /* Styles for mobile */
+  @media screen and (max-width: 480px) {
+    #wrapper {
+        width: 100%;
+    }
+    
+    h1 {
+        margin-left: 1%;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    #textPage{
+        border-radius: 0px;
+    }
+
+    ul {
+      font-size: 20px;
+    }
+    
+    ul li {
+      margin-left: 10px;
+    }
+    
+    p {
+      font-size: 16px;
+      margin-left: 0;
+      padding: 0 10px;
+    }
+  }
