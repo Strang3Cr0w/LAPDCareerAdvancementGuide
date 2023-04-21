@@ -1,0 +1,113 @@
+{
+    "1": {
+	"question": "What should be done with additional information obtained after an initial Follow-Up Investigation, Form 03.14.00, has been submitted?",
+	"answer1" : "Add the information to the original Form 03.14.00",
+	"answer2" : "Submit a new Form 03.14.00 as a Supplemental Investigation",
+	"answer3" : "Destroy the original Form 03.14.00 and submit a new one",
+	"answer4" : "File the additional information in a separate document",
+	"correctAnswer": "answer2"
+    },
+    "2": {
+	"question": "What is the purpose of the Follow-Up Investigation, Form 03.14.00?",
+	"answer1" : "To record the initial crime or incident report",
+	"answer2" : "To record additional information and results of an investigation after completion of the original crime or incident report",
+	"answer3" : "To track the progress of an investigation",
+	"answer4" : "To provide evidence for criminal or civil litigation",
+	"correctAnswer": "answer2"
+    },
+    "3": {
+	"question": "What is the Follow-Up Investigation, Form 03.14.00 used for?",
+	"answer1" : "To record additional information gained subsequent to the completion of the original report",
+	"answer2" : "To correct information on the original report or to report the progress in the investigation",
+	"answer3" : "To change the case status of the following reports: Arrest Report, Form 05.02.00, Death Investigation, Form 03.11.00, Injury Investigation, Form 03.15.00, Missing/Found Persons Investigation, Form 03.16.00, Non-traffic Notice to Appear, Form 05.02.02, Investigative Report, Form 03.01.00, Property Report, Form 10.01.00, State of California, Department of the Highway Patrol, Vehicle Report, CHP 180, Victim’s Supplemental Property Loss Report, Form 03.04.00, Victim’s Supplemental Financial Loss Report, Form 03.05.00",
+	"answer4" : "All of the above",
+	"correctAnswer": "answer4"
+    },
+    "4": {
+	"question": "What should be used to correct information on the original Disposition of Arrest and Court Action, Form 05.09.00?",
+	"answer1" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer2" : "Investigative Report, Form 03.01.00",
+	"answer3" : "Disposition of Arrest and Court Action, Form 05.09.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer3"
+    },
+    "5": {
+	"question": "What should be used when reclassifying an injury to a crime?",
+	"answer1" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer2" : "Investigative Report, Form 03.01.00",
+	"answer3" : "Investigator’s Final Report, Form 05.10.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer2"
+    },
+    "6": {
+	"question": "What should be used when correcting information on the original Investigator's Final Report, Form 05.10.00?",
+	"answer1" : "Investigator’s Final Report, Form 05.10.00",
+	"answer2" : "Investigative Report, Form 03.01.00",
+	"answer3" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer1"
+    },
+    "7": {
+	"question": "What should be used when reclassifying a missing person investigation to a crime?",
+	"answer1" : "Investigator’s Final Report, Form 05.10.00",
+	"answer2" : "Investigative Report, Form 03.01.00",
+	"answer3" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer2"
+    },
+    "8": {
+	"question": "What should be used to report a final disposition of a missing person investigation?",
+	"answer1" : "Investigator’s Final Report, Form 05.10.00",
+	"answer2" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer3" : "Missing/Found Persons Investigation, Form 03.16.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer3"
+    },
+    "9": {
+	"question": "What should be used to book additional property related to a previously completed Property Report?",
+	"answer1" : "Investigative Report, Form 03.01.00",
+	"answer2" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer3" : "Property Report, Form 10.01.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer3"
+    },
+    "10": {
+	"question": "What form should be used when changing the status of a vehicle in the Stolen Vehicle System?",
+	"answer1" : "Vehicle Report, CHP 180",
+	"answer2" : "The Follow-Up Investigation, Form 03.14.00",
+	"answer3" : "Investigative Report, Form 03.01.00",
+	"answer4" : "None of the above",
+	"correctAnswer": "answer1"
+    },
+    "11": {
+	"question": "What special follow-up reports can be used in lieu of a Form 03.14.00 in some circumstances?",
+	"answer1" : "Murder Investigation Progress Report - use plain white paper",
+	"answer2" : "Victim’s Supplemental Property Loss, Form 03.04.00",
+	"answer3" : "Victim’s Supplemental Financial Loss Report, Form 03.05.00",
+	"answer4" : "All of the above",
+	"correctAnswer": "answer4"
+    },
+    "12": {
+	"question": "What specialized investigations use an additional Form 03.19.00 as a follow-up report?",
+	"answer1" : "Narcotics Report",
+	"answer2" : "Vice Report",
+	"answer3" : "Both A and B",
+	"answer4" : "Neither A nor B",
+	"correctAnswer": "answer3"
+    },
+    "13": {
+	"question": "When should a Form 03.14.00 be initiated?",
+	"answer1" : "As soon as possible after the information requiring its initiation has been learned",
+	"answer2" : "As soon as possible after the investigation is completed",
+	"answer3" : "As soon as possible, but may be held if necessary",
+	"answer4" : "Both A and B",
+	"correctAnswer": "answer4"
+    },
+    "14": {
+	"question": "What should be done with a Follow-Up Investigation, Form 03.14.00 once it is completed?",
+	"answer1" : "It should be submitted for approval and distributed",
+	"answer2" : "It should be held",
+	"answer3" : "It should be destroyed",
+	"answer4" : "It should be filed",
+	"correctAnswer": "answer1"
+    },
