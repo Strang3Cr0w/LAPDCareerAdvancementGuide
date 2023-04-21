@@ -1,4 +1,4 @@
-Parse.initialize("oSVBTw2Nc6wRXU46YaOIw4Ke7hLOgq7ndY0j9hLa", "jUGb1Cf2UJIE1ljsTaFH7lmQ2jLMFD2JJbX5IMgy");
+Parse.initialize("W4ODQlsrgGOJ6fxJu057HTW3jaXCXjBqeHFWxcp2", "v8fhfB44i0sdfVwgt7t2WTo2k4VtxHeSUMRz8HZj");
 Parse.serverURL = "https://parseapi.back4app.com/";
 
 let questionRepo = null;
