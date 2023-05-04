@@ -1,29 +1,33 @@
 Please make questions using the paragraph I will provide to you. The questions can either be multiple choice, true or false, or select all that apply questions. The format I want you to use in providing the questions is in the form of an object. It should look like this for a multiple choice:
-{"questionType": "multipleChoice",
- "question": "This is the question",
- "answer1": "This is the first possible answer",
- "answer2": "This is the second possible answer",
- "answer3": "This is the third possible answer",
- "answer4": "This is the fourth possible answer",
- "correctAnswer": "answer2"
-}
+{
+    "questionType": "multipleChoice",
+    "question": "This is the question",
+    "answer1": "This is the first possible answer",
+    "answer2": "This is the second possible answer",
+    "answer3": "This is the third possible answer",
+    "answer4": "This is the fourth possible answer",
+    "correctAnswer": "answer2"
+},
 
 The correct answer doesn't always have to be in the place of answer2, make sure to make it random. For the true or false questions, the format should look like this:
-{"questionType": "trueOrFalse",
- "question": "The true or false question",
- "correctAnswer": "false"
-} 
+{
+    "questionType": "trueOrFalse",
+    "question": "The true or false question",
+    "correctAnswer": "false"
+},
 
 Obviously the question doesn't need to be always false. Switch it up based on the question. For the select all that apply questions the format should be:
-{"questionType": "selectAllThatApply",
- "question": "Question asking user to select all that are true or apply",
- "answer1": "An option",
- "answer2: "another option",
- "answer3": "yet another option",
- "answer4": "another option",
- "answer5": "another option",
- "answer6": "another option",
- "correctAnswer": ["answer1", "answer3", "answer4", "answer5"]
-}
+{
+    "questionType": "selectAllThatApply",
+    "question": "Question asking user to select all that are true or apply",
+    "answer1": "An option",
+    "answer2: "another option",
+    "answer3": "yet another option",
+    "answer4": "another option",
+    "answer5": "another option",
+    "answer6": "another option",
+    "correctAnswer": ["answer1", "answer3", "answer4", "answer5"]
+},
 
 The number of answers for the select all that apply question can vary based on the question. However, make sure to limit it to a maximum of 8 answers. The "correctAnswer" key in the object should have a value of an array that includes all of the true answers in the select all that apply question. Please execute this instruction using the following paragraph/paragraphs:
+
