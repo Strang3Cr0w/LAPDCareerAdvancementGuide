@@ -7,19 +7,27 @@
     <title>Detective Operations Manual Quiz</title>
     <link href="./css/quiz.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-    <script src="./js/detective_operations_manual.js" type="text/javascript" defer></script>
+    <script src="./js/detective_operations_manual_quiz.js" type="text/javascript" defer></script>
 </head>
 <body>
     <div id="wrapper">
         <h1>LAPD Detective Operations Manual</h1>
         <div class="question_box">
-            <p id="question" ></p>
-            <div class="answers">
-                <p id="answer1"></p>
-                <p id="answer2"></p>
-                <p id="answer3"></p>
-                <p id="answer4"></p>
-            </div>
+            <p id="question"></p>
+            <br>
+            <strong><p id="question_details" style="display:none"></p></strong>
+            <ul id="answers">
+                <li id="true" style="display:none"></li>
+                <li id="false" style="display:none"></li>
+                <li id="answer1" style="display:none"></li>
+                <li id="answer2" style="display:none"></li>
+                <li id="answer3" style="display:none"></li>
+                <li id="answer4" style="display:none"></li>
+                <li id="answer5" style="display:none"></li>
+                <li id="answer6" style="display:none"></li>
+                <li id="answer7" style="display:none"></li>
+                <li id="answer8" style="display:none"></li>
+            </ul>
             <div>
                 <span id="rightWrong"></span>
             </div>
@@ -28,8 +36,8 @@
                 <br><br>
             </div>
         </div>
-        <div id="links">
-            <ul>
+        <div>
+            <ul id="links">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./detective_operations_manual.html">Detective Operations Manual</a></li>
             </ul>

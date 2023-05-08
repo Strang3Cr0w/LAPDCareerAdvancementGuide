@@ -25,18 +25,19 @@ h1{
     margin-top: 2rem;
     margin-left: 5%;
     width: 90%;
-    height: 35rem;
+    height: auto;
     background: #fff;
     text-align: left;
     padding: 2rem;
     border-radius: 1rem;
 }
   
-.answers {
+#answers{
     padding: 1rem;
 }
   
-.answers p {
+#answers li{
+    list-style: none;
     border-radius: 0.5rem;
     padding: 1rem;
     cursor: pointer;
@@ -45,16 +46,15 @@ h1{
     background: rgb(1, 1, 65);
     color: #fff;
     font-size: 1.2rem;
-    
 }
   
-  span {
+span{
     font-size: 1.5rem;
     float: left;
     margin-left: 2rem;
-  }
+}
   
-  #next {
+#next{
     float: right;
     margin-right: 5%;
     width: 10rem;
@@ -65,35 +65,35 @@ h1{
     border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
-  }
+}
   
-  #next:hover {
+#next:hover{
     background-color: yellow;
     color: black;
     font-weight: bold;
-  }
+}
   
-  ul {
+#links{
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
+}
   
-ul li{
+#links li{
     list-style: none;
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 15%;
     cursor: pointer;
     font-weight: bold;
     font-size: 2rem;
 }
   
-ul a{
+#links a{
     text-decoration: none;
     color: #fff;
     transition: color 0.5s;
 }
   
-ul li a:hover{
+#links li a:hover{
     color: yellow;
 }
   
@@ -106,7 +106,7 @@ ul li a:hover{
     .question_box{
         margin-left: 2.5%;
         margin-right: 2.5%;
-        height: 25rem;
+        height: auto;
         padding: 1rem;
         border-radius: 0.5rem;
     }
@@ -128,7 +128,7 @@ ul li a:hover{
         margin-right: 2.5%;
     }
 
-    ul li{
+    #links ul li{
         margin-left: 15%;
         font-size: 1.5rem;
     }
@@ -165,7 +165,7 @@ ul li a:hover{
         margin-right: 2.5%;
     }
 
-    ul li{
+    #links ul li{
         margin-left: 1rem;
         font-size: 1.5rem;
         margin-top: 1%;
