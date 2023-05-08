@@ -390,7 +390,7 @@ let detective_operations_questions_repo = {
         "correctAnswer": "answer1"
         },
     "52": {
-        "questionType": "multipleChoice",
+        "questionType": "trueOrFalse",
         "question": "Under the WORK FOLDER in DCTS, the INDEX NO. is for the report number in that corresponding month.",
         "correctAnswer": "true"
     }
