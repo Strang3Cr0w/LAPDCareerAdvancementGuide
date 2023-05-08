@@ -400,6 +400,7 @@ const multipleChoice = questionObj =>{
 
     answer1.addEventListener("click", answerCheck1);
     answer1.addEventListener("click", () =>{
+    answer1.removeEventListener("click", answerCheck1);
     answer2.removeEventListener("click", answerCheck2);
     answer3.removeEventListener("click", answerCheck3);
     answer4.removeEventListener("click", answerCheck4);
@@ -408,6 +409,7 @@ const multipleChoice = questionObj =>{
     answer2.addEventListener("click", answerCheck2);
     answer2.addEventListener("click", () =>{
     answer1.removeEventListener("click", answerCheck1);
+    answer2.removeEventListener("click", answerCheck2);
     answer3.removeEventListener("click", answerCheck3);
     answer4.removeEventListener("click", answerCheck4);
     });
@@ -416,6 +418,7 @@ const multipleChoice = questionObj =>{
     answer3.addEventListener("click", () =>{
     answer1.removeEventListener("click", answerCheck1);
     answer2.removeEventListener("click", answerCheck2);
+    answer3.removeEventListener("click", answerCheck3);
     answer4.removeEventListener("click", answerCheck4);
     });
 
@@ -424,6 +427,7 @@ const multipleChoice = questionObj =>{
     answer1.removeEventListener("click", answerCheck1);
     answer2.removeEventListener("click", answerCheck2);
     answer3.removeEventListener("click", answerCheck3);
+    answer4.removeEventListener("click", answerCheck4);
     });
 }
 
