@@ -313,6 +313,9 @@ body{
       font-size: 0.8rem;
       margin-bottom: 1rem;
     }
+    #container1 img{
+      margin-left: 0%;
+    }
     /* styles for container2 */
     #container2 {
       padding: 2rem;
