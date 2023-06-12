@@ -54,7 +54,7 @@ span{
     margin-left: 2rem;
 }
   
-#next{
+button{
     float: right;
     margin-right: 5%;
     width: 10rem;
@@ -69,6 +69,12 @@ span{
   
 #next:hover{
     background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+#report:hover{
+    background-color: red;
     color: black;
     font-weight: bold;
 }
