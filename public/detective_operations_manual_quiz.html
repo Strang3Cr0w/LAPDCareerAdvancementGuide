@@ -8,6 +8,7 @@
     <link href="./css/quiz.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
     <script src="./js/detective_operations_manual_quiz.js" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/ce15d65cdc.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -32,9 +33,24 @@
                 <span id="rightWrong"></span>
             </div>
             <div>
-                <button id="next">Next</button>
+                <button id="next">Next</button><br><br><br>
+                <button id="report"><i class="fa-solid fa-flag"></i> Report</button>
+                <p id="reported">Reported</p>
                 <br><br>
             </div>
+        </div>
+        <div id="report_box">
+            <form name="submit-to-google-sheet">
+                <p><i class="fa-solid fa-flag"></i> What's the reason?</p><br>
+                <input name="Number" id="question_number" value="" style="display:none">
+                <input name="Question" id="question_text" value="" style="display:none">
+                <input type="radio" id="wrong" name="Reason" value="wrong" required>
+                <label for="wrong">Answer is wrong</label><br><br>
+                <input type="radio" id="confusing" name="Reason" value="confusing" required>
+                <label for="confusing">Question is confusing/doesn't make sense</label><br><br>
+                <button type="button" id="report_submit"></i>Submit</button><br><br><br><br>
+                <a href="#" id="cancel_report">Cancel</a>
+            </form>
         </div>
         <div>
             <ul id="links">

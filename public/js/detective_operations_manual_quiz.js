@@ -11,6 +11,8 @@ Parse.serverURL = "https://parseapi.back4app.com/";
 
 //GLOBAL VARIABLES
 
+let randNum = null;
+let report_question_text = null;
 let questionRepo = null;
 const question = document.getElementById("question");
 const rightWrong = document.getElementById("rightWrong");
@@ -43,7 +45,10 @@ const resetPage = () =>{
 
     rightWrong.innerHTML = "";
     document.getElementById("question_details").style.display = "none";
-    document.getElementById("question_details").innerHTML = ""; 
+    document.getElementById("question_details").innerHTML = "";
+    document.getElementById("report").style.display = "block";
+    document.getElementById("reported").style.display = "none";
+    document.getElementById("report_box").style.display = "none";
 }
 
 next.addEventListener("click", resetPage);
@@ -51,11 +56,44 @@ next.addEventListener("click", resetPage);
 //END OF RESET PAGE FUNCTION
 
 
+//THE REPORT FUNCTION THAT ALLOWS THE USER TO REPORT A QUESTION FOR REVIEW
+
+document.getElementById("report").addEventListener("click", ()=>{
+    document.getElementById("report_box").style.display = "block";
+    document.getElementById("question_number").value = randNum;
+    document.getElementById("question_text").value = report_question_text;
+});
+
+document.getElementById("cancel_report").addEventListener("click", ()=>{
+    document.getElementById("report_box").style.display = "none";
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw7LxvmwgnDF4b52yiuQK9BQWR4UJm_bkcXhSzseafIKw8GQeklrbGUKI0zGPvuoRzT0Q/exec';
+const form = document.forms['submit-to-google-sheet']
+
+const report_question = () =>{
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        console.log("Success!", response);
+        document.getElementById("report").style.display = "none";
+        document.getElementById("reported").style.display = "block";
+        document.getElementById("report_box").style.display = "none";
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+}
+
+document.getElementById("report_submit").addEventListener("click", report_question);
+
+//END OF REPORT FUNCTION
+
+
 //THE TRUE OR FALSE QUESTION FORMAT FUNCITON. THIS FUNCTION MANIPULATES THE PAGE TO SERVE
 //A TRUE OR FALSE QUESTION
 
 const trueOrFalse = questionObj =>{
     question.innerHTML = questionObj.question;
+    report_question_text = questionObj.question;
     let correctAnswer = questionObj.correctAnswer;
     console.log(correctAnswer);
 
@@ -108,6 +146,7 @@ const trueOrFalse = questionObj =>{
 
 const selectAllThatApply = questionObj =>{
     question.innerHTML = questionObj.question;
+    report_question_text = questionObj.question;
     let correctAnswerList = questionObj.correctAnswer;
     console.log(correctAnswerList);
     let selectedAnswerList = [];
@@ -333,6 +372,7 @@ const selectAllThatApply = questionObj =>{
 
 const multipleChoice = questionObj =>{
     question.innerHTML = questionObj.question;
+    report_question_text = questionObj.question;
     let correctAnswer = questionObj.correctAnswer;
     console.log(correctAnswer);
 
@@ -444,7 +484,7 @@ const questionGenerator = () =>{
     for (let i in questionRepo) {
         questionCount += 1;
     }
-    const randNum = Math.floor(Math.random() * questionCount + 1);
+    randNum = Math.floor(Math.random() * questionCount + 1);
     const questionObj = questionRepo[randNum];
 
     if(questionObj.questionType === "multipleChoice"){

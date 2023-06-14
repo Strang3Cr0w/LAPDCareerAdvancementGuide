@@ -393,5 +393,650 @@ let detective_operations_questions_repo = {
         "questionType": "trueOrFalse",
         "question": "Under the WORK FOLDER in DCTS, the INDEX NO. is for the report number in that corresponding month.",
         "correctAnswer": "true"
-    }
+    },
+    "53": {
+        "questionType": "trueOrFalse",
+        "question": "When a Follow-Up Investigation Form 3.14 is submitted, only one case status number shall be circled on a Form 03.14.00 covering a single DR number.",
+        "correctAnswer": "true"
+    },
+    "54": {
+        "questionType": "multipleChoice",
+        "question": "What does it mean when a crime report is cleared by arrest or cleared other?",
+        "answer1": "The detective has not taken any action against the suspect",
+        "answer2": "The detective has solved the crime and taken all possible action against at least one suspect",
+        "answer3": "The detective has identified a suspect but not taken any action against them",
+        "answer4": "The detective has taken some action against a suspect, but further investigation is still required",
+        "correctAnswer": "answer2"
+    },
+    "55": {
+        "questionType": "selectAllThatApply",
+        "question": "Which crimes can be cleared?",
+        "answer1": "Only crimes that occurred in the City of Los Angeles",
+        "answer2": "Only crimes that have a victim",
+        "answer3": "Only crimes that were reported on a Department crime report",
+        "answer4": "All crimes regardless of location and victim status",
+        "answer5": "Charges such as narcotics possession or CCW",
+        "answer6": "Felony crimes processed by the 17(b)(4) PC bypass procedure",
+        "correctAnswer": ["answer1", "answer2", "answer3"]
+    },
+    "56": {
+        "questionType": "multipleChoice",
+        "question": "When a non-crime report shares a DR number with a crime report, what will the case status of the non-crime report be?",
+        "answer1": "Unfounded",
+        "answer2": "Investigation Continued",
+        "answer3": "Cleared by Arrest",
+        "answer4": "Cleared Other",
+        "correctAnswer": "answer2"
+      },
+    "57": {
+        "questionType": "trueOrFalse",
+        "question": "Charges can be cleared.",
+        "correctAnswer": "False"
+      },
+    "58": {
+        "questionType": "trueOrFalse",
+        "question": "A person can be considered cleared by arrest if they are charged with a related misdemeanor offense based on the crime report.",
+        "correctAnswer": "true"
+        },
+    "59": {
+        "questionType": "multipleChoice",
+        "question": "What does 'charged' mean in this context?",
+        "answer1": "Found guilty in a court of law.",
+        "answer2": "Released without any charges.",
+        "answer3": "A complaint filed with a federal, state or local court by the Department, or by another law enforcement agency.",
+        "answer4": "Fined for the offense committed.",
+        "correctAnswer": "answer3"
+        },
+    "60": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the requirements for a related offense to be considered in clearance?",
+        "answer1": "The offense must be included within the original crime.",
+        "answer2": "The offense must be filed in lieu of the original crime.",
+        "answer3": "The detective must be able to reasonably establish that the person charged with the offense actually committed the original crime.",
+        "answer4": "The suspect must have been charged with a federal offense.",
+        "correctAnswer": ["answer1", "answer2", "answer3"]
+        },
+    "61": {
+        "questionType": "trueOrFalse",
+        "question": "Marking a case status as 'Investigation Continued' is appropriate when a felony warrant has been obtained but has not been served.",
+        "correctAnswer": "true"
+        },
+    "62": {
+        "questionType": "trueOrFalse",
+        "question": "When a person is identified and a warrant is issued for their arrest, the case is cleared by arrest.",
+        "correctAnswer": "true"
+        },
+    "63": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the conditions that must be met for a case to be cleared by arrest in adult misdemeanor cases?",
+        "answer1": "A person is arrested and charged with the commission of the offense",
+        "answer2": "A warrant is issued for the perpetrator's arrest",
+        "answer3": "The matter is set for a District Attorney or City Attorney hearing",
+        "answer4": "The person is cited into court by citation or voluntary appearance letter",
+        "answer5": "The matter is deemed an infraction and a court hearing is scheduled",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+        },
+    "64": {
+        "questionType": "multipleChoice",
+        "question": "In juvenile cases, when is a case cleared by arrest?",
+        "answer1": "When a petition is requested",
+        "answer2": "When the juvenile is identified as the perpetrator",
+        "answer3": "When the juvenile is arrested",
+        "answer4": "When the juvenile is counseled and released",
+        "correctAnswer": "answer1"
+        },
+    "65": {
+        "questionType": "trueOrFalse",
+        "question": "If a case involves multiple suspects and action has been taken against at least one individual in the case, the case is cleared by arrest.",
+        "correctAnswer": "true"
+        },
+    "66": {
+        "questionType": "trueOrFalse",
+        "question": "The UCR guidelines established criteria for an exceptional clearance called 'Cleared Other'.",
+        "correctAnswer": "true"
+        },
+    "67": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the four circumstances that must exist for a case to be considered 'Cleared Other'?",
+        "answer1": "The identity of the perpetrator has definitely been established",
+        "answer2": "A location at which the perpetrator could be arrested is unknown to the detective",
+        "answer3": "There is sufficient, admissible information and/or evidence to support an arrest",
+        "answer4": "The reason further action cannot be taken is outside of police control",
+        "answer5": "The filing of a complaint is not necessary",
+        "correctAnswer": ["answer1", "answer3", "answer4"]
+        },
+    "68": {
+        "questionType": "multipleChoice",
+        "question": "What does 'sufficient, admissible information and/or evidence to support the filing of a complaint' mean?",
+        "answer1": "There is a strong and reasonable expectation that the arrestee would be acquitted in a trial",
+        "answer2": "There is a strong and reasonable expectation that the arrestee would be convicted in a trial",
+        "answer3": "The case is not strong enough to go to trial",
+        "answer4": "The evidence is inadmissible in court",
+        "correctAnswer": "answer2"
+        },
+    "69": {
+        "questionType": "multipleChoice",
+        "question": "What would be an example of a reason for rejection of a complaint that would put further action outside of police control?",
+        "answer1": "The filing deputy believes the probability of conviction meets their agency’s standards.",
+        "answer2": "The perpetrator is offered immunity.",
+        "answer3": "The perpetrator is facing prosecution on other local charges.",
+        "answer4": "The cost of prosecution is proportionate to the crime.",
+        "correctAnswer": "answer2"
+        },
+    "70": {
+        "questionType": "trueOrFalse",
+        "question": "If a witness is reluctant to testify and the prosecutor refuses to compel their appearance in court, the filing deputy does not need to document this in writing when rejecting a complaint.",
+        "correctAnswer": "false"
+        },
+    "71": {
+        "questionType": "selectAllThatApply",
+        "question": "What are some reasons for rejection of a complaint that would put further action outside of police control?",
+        "answer1": "The perpetrator is serving time in another jurisdiction, and the perpetrator’s release cannot be obtained.",
+        "answer2": "The cost of prosecution is highly disproportionate to the crime.",
+        "answer3": "The filing deputy defers filing for revocation of parole.",
+        "answer4": "The perpetrator is charged with a more serious offense in another jurisdiction and is released to them.",
+        "answer5": "In lieu of prosecution, the filing deputy elects to refer the perpetrator to a public social service agency or other services deemed necessary.",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+        },
+    "72": {
+        "questionType": "trueOrFalse",
+        "question": "A victim's refusal to prosecute or cooperate prevents filing or prosecution of a case.",
+        "correctAnswer": "false"
+        },
+    "73": {
+        "questionType": "multipleChoice",
+        "question": "When can a case be cleared without a complaint being sought if the victim refuses to prosecute or cooperate?",
+        "answer1": "When the victim's testimony is not essential in substantiating the elements of the crime.",
+        "answer2": "When the victim is not available to testify in court.",
+        "answer3": "When all four circumstances exist as discussed in DOM Volume I, Section 152.20.",
+        "answer4": "When there are other crimes for which the perpetrator could be prosecuted without the testimony of the victim.",
+        "correctAnswer": "answer3"
+        },
+    "74": {
+        "questionType": "selectAllThatApply",
+        "question": "In which situations should a complaint be sought or an in-person or FAX filing reject be obtained?",
+        "answer1": "The case involves domestic violence.",
+        "answer2": "The injury to the victim is of a serious nature and is likely to result in death, a long-term disability, or hospitalization for a significant period of time.",
+        "answer3": "A firearm was used in the commission of the crime.",
+        "answer4": "The perpetrator has attempted to injure the victim using a deadly weapon or instrument, whether successful or not.",
+        "answer5": "There is a strong likelihood of future crimes being committed by the perpetrator against the victim.",
+        "answer6": "There is apparent intimidation of the victim that is causing the victim not to prosecute.",
+        "answer7": "The perpetrator is on probation or parole.",
+        "answer8": "The perpetrator has no prior criminal record.",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6", "answer7"]
+        },
+    "75": {
+        "questionType": "trueOrFalse",
+        "question": "If a victim of a non-serious crime declines to identify the suspect and their location to the police, it can still be said that the detective has the information to satisfy all requirements of 'Cleared Other.'",
+        "correctAnswer": "true"
+        },
+    "76": {
+        "questionType": "multipleChoice",
+        "question": "Under what circumstances would it be appropriate to clear a case involving battery with no or only complained of injuries, theft, vandalism, or minor second degree burglary with restitution?",
+        "answer1": "If the crime is a neighborhood occurrence with a juvenile offender",
+        "answer2": "If the victim is a minor",
+        "answer3": "If the suspect has turned themselves in",
+        "answer4": "If the crime occurred in a public place",
+        "correctAnswer": "answer1"
+        },
+    "77": {
+        "questionType": "selectAllThatApply",
+        "question": "In what circumstances would it not be appropriate to clear a case?",
+        "answer1": "Battery with serious injury",
+        "answer2": "Gang-related crimes",
+        "answer3": "Domestic violence crimes",
+        "answer4": "Burglary with a significant loss",
+        "answer5": "Any situation in which there are indications other crimes may be involved",
+        "answer6": "Any situation in which the detective has the slightest indication of threats against the victim(s) or witnesses",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6"]
+        },
+    "78": {
+        "questionType": "trueOrFalse",
+        "question": "Prior approval for clearing a case involving a non-serious crime where the victim declines to identify the suspect and their location to the police should be obtained from the detective division OIC and documented in the Form 03.14.00.",
+        "correctAnswer": "true"
+        },
+    "79": {
+        "questionType": "trueOrFalse",
+        "question": "If the perpetrator dies, the police cannot continue their investigation.",
+        "correctAnswer": true
+      },
+    "80": {
+        "questionType": "trueOrFalse",
+        "question": "If a suspect surrenders on a voluntary appearance or on a felony warrant issued in the case, and the judge refuses to order the suspect into custody for the booking process, the case may be 'Cleared Other'.",
+        "correctAnswer": "true"
+        },
+    "81": {
+        "questionType": "multipleChoice",
+        "question": "Under what circumstances can a case be cleared other due to a suspect's MO?",
+        "answer1": "When the MO is completely different from any other known perpetrator",
+        "answer2": "When the MO is similar to other known perpetrators, but there is no additional evidence or specific admissions",
+        "answer3": "When the MO is so distinct that it virtually identifies the suspect as the perpetrator of other crimes of a similar nature to that for which the complaint was issued",
+        "answer4": "When the MO is somewhat similar to other known perpetrators, but not distinctive enough to be conclusive",
+        "correctAnswer": "answer3"
+        },
+    "82": {
+        "questionType": "selectAllThatApply",
+        "question": "What are examples of circumstances where further action would be outside of police control?",
+        "answer1": "Death of the perpetrator",
+        "answer2": "A formal request for extradition is denied by another state or nation",
+        "answer3": "The perpetrator is a minor",
+        "answer4": "The perpetrator is a diplomat",
+        "answer5": "The perpetrator is in another country",
+        "correctAnswer": ["answer1", "answer2"]
+        },
+    "83": {
+        "questionType": "multipleChoice",
+        "question": "What is the basis for clearing a case based on confession or MO?",
+        "answer1": "Clear and convincing evidence",
+        "answer2": "Preponderance of evidence and/or admissions",
+        "answer3": "Beyond a reasonable doubt",
+        "answer4": "Mere suspicion",
+        "correctAnswer": "answer2"
+        },
+    "84": {
+        "questionType": "selectAllThatApply",
+        "question": "What are examples of acceptable evidence or specific admissions?",
+        "answer1": "Latent fingerprints",
+        "answer2": "DNA exemplars",
+        "answer3": "Handwriting exemplars",
+        "answer4": "Possession of pawn tickets",
+        "answer5": "Showing specific knowledge of the crime scene",
+        "answer6": "General items taken",
+        "answer7": "Usual methods of entry",
+        "answer8": "Non-descriptive crime locations",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+        },
+    "85": {
+        "questionType": "selectAllThatApply",
+        "question": "What are examples of evidence or admissions that are not acceptable?",
+        "answer1": "General items taken",
+        "answer2": "Usual methods of entry",
+        "answer3": "Non-descriptive crime locations",
+        "answer4": "General times",
+        "answer5": "Large items taken",
+        "answer6": "Unusual methods of entry",
+        "answer7": "Descriptive crime locations",
+        "answer8": "Specific times",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "86": {
+        "questionType": "trueOrFalse",
+        "question": "If the same crime or incident has been reported more than once, only the most accurate and thorough crime report shall be retained.",
+        "correctAnswer": "true"
+        },
+    "87": {
+        "questionType": "multipleChoice",
+        "question": "When is a crime report considered unfounded?",
+        "answer1": "When the incident did not occur in the City of Los Angeles.",
+        "answer2": "When the victim recants their original report.",
+        "answer3": "When specific intent cannot be proven for a crime that requires it.",
+        "answer4": "All of the above.",
+        "correctAnswer": "answer4"
+        },
+    "88": {
+        "questionType": "selectAllThatApply",
+        "question": "What are some reasons why a bad check case may not be considered a crime?",
+        "answer1": "There were insufficient funds on deposit at the time the check was presented.",
+        "answer2": "The bank account did not have enough funds to cover the check at the time it was written.",
+        "answer3": "There was an agreement to hold the check.",
+        "answer4": "There was a stop payment due to a civil dispute.",
+        "answer5": "The check was written in a different city than the one where it was presented.",
+        "correctAnswer": ["answer2", "answer3", "answer4"]
+        },
+    "89": {
+        "questionType": "trueOrFalse",
+        "question": "If a complaint is rejected on a specific suspect, the crime report may be considered unfounded.",
+        "correctAnswer": "false"
+        },
+    "90": {
+        "questionType": "multipleChoice",
+        "question": "If filings for a 487.3 PC and 10851 VC were rejected, what determines whether the stolen vehicle report may be unfounded or not?",
+        "answer1": "The victim's statement.",
+        "answer2": "The suspect's statement.",
+        "answer3": "Whether there was illegal intent in the taking and driving of the vehicle.",
+        "answer4": "Whether the vehicle was recovered or not.",
+        "correctAnswer": "answer3"
+        },
+    "91": {
+        "questionType": "multipleChoice",
+        "question": "When is 'Investigation Continued' indicated?",
+        "answer1": "When the case has been cleared or unfounded",
+        "answer2": "When the non-crime report shares a DR number with a crime report",
+        "answer3": "When the case has not been cleared or unfounded, and the investigation is continuing",
+        "answer4": "When a crime report has been unfounded",
+        "correctAnswer": "answer3"
+        },
+    "92": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the circumstances when the words 'CASE CLOSED' shall be printed in bold letters at the top of the narrative portion?",
+        "answer1": "When the case has been cleared or unfounded",
+        "answer2": "When the case has not been cleared or unfounded and no other case status applies",
+        "answer3": "When the non-crime report shares a DR number with a crime report",
+        "answer4": "When the noncrime report is not unfounded and the circumstances reported have been resolved",
+        "answer5": "When the investigation is continuing",
+        "correctAnswer": ["answer4"]
+        },
+    "93": {
+        "questionType": "trueOrFalse",
+        "question": "Information from previous reports can be repeated in the boxes within the bold lines of the Middle Portion of Form (date occurred through suspect informtion S1, S2, and S3).",
+        "correctAnswer": "false"
+        },
+    "94": {
+        "questionType": "trueOrFalse",
+        "question": "Is it necessary to complete the 'Date Occurred - Change To' box if the date or time of occurrence on the original report is correct?",
+        "correctAnswer": "false"
+        },
+    "95": {
+        "questionType": "trueOrFalse",
+        "question": "When reclassifying a lost report (IR) to a crime, a Form 03.14.00 should be completed.",
+        "correctAnswer": "true"
+        },
+    "96": {
+        "questionType": "multipleChoice",
+        "question": "Which of the following reports should be reclassified using an Investigative Report, Form 03.01.00?",
+        "answer1": "Lost report (IR) to a crime",
+        "answer2": "Injury Investigation, Form 3.15, to a crime",
+        "answer3": "Missing/Found Person Investigation, Form 03.16.00, to a crime",
+        "answer4": "Crime report (IR) to a murder or manslaughter",
+        "correctAnswer": "answer2"
+        },
+    "97": {
+        "questionType": "selectAllThatApply",
+        "question": "When should a Form 03.14.00 be completed?",
+        "answer1": "Reporting additional property loss",
+        "answer2": "Reporting recovered property",
+        "answer3": "Reporting deleted property",
+        "answer4": "Changing or correcting a property description",
+        "answer5": "Reclassifying a lost report (IR) to a crime",
+        "answer6": "Reclassifying a missing adult to a missing juvenile",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "98": {
+        "questionType": "trueOrFalse",
+        "question": "When reclassifying an Injury Investigation, Form 3.15, to a crime, a Form 03.14.00 should be completed.",
+        "correctAnswer": "false"
+        },
+    "99": {
+        "questionType": "multipleChoice",
+        "question": "Which of the following should be attached to the copy of the Form 03.14.00 that is used to update computer records and sent to Records and Identification Division?",
+        "answer1": "The face sheet of the original report",
+        "answer2": "The entire original report",
+        "answer3": "The Investigative Report, Form 03.01.00",
+        "answer4": "None of the above",
+        "correctAnswer": "answer1"
+        },
+    "100": {
+        "questionType": "multipleChoice",
+        "question": "When should a Form 03.14.00 be completed?",
+        "answer1": "When reporting a total recovery",
+        "answer2": "When reporting recovered property",
+        "answer3": "When changing or correcting a property description",
+        "answer4": "All of the above",
+        "correctAnswer": "answer3"
+        },
+    "101": {
+        "questionType": "trueOrFalse",
+        "question": "Serialized articles can have multiple item numbers.",
+        "correctAnswer": "false"
+        },
+    "102": {
+        "questionType": "selectAllThatApply",
+        "question": "What is the purpose of the Victim's Supplemental Property Loss Report, Form 03.04.00 or Victim's Supplemental Financial Loss Report, Form 03.05.00?",
+        "answer1": "To list additional property taken",
+        "answer2": "To list financial loss which was not included on the original report",
+        "answer3": "To delete items from the original report",
+        "answer4": "To report a total recovery",
+        "correctAnswer": ["answer1", "answer2", "answer3"]
+        },
+    "103": {
+        "questionType": "selectAllThatApply",
+        "question": "What information should be included in the complete description of each item when reporting additional stolen or lost property?",
+        "answer1": "Item number",
+        "answer2": "Quantity",
+        "answer3": "Article",
+        "answer4": "Serial number",
+        "answer5": "Brand",
+        "answer6": "Model number",
+        "answer7": "Miscellaneous description",
+        "answer8": "Color",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6", "answer7"]
+        },
+    "104": {
+        "questionType": "multipleChoice",
+        "question": "What should be entered in the PARTIAL RECOVERY box if the original loss was reported as value unknown?",
+        "answer1": "The value of the items recovered",
+        "answer2": "Unknown",
+        "answer3": "The total value of the reported loss",
+        "answer4": "Nothing",
+        "correctAnswer": "answer2"
+        },
+    "105": {
+        "questionType": "trueOrFalse",
+        "question": "It is necessary to separately describe the items recovered in the narrative when filling out the PARTIAL RECOVERY box.",
+        "correctAnswer": "true"
+        },
+    "106": {
+        "questionType": "selectAllThatApply",
+        "question": "Which of the following instructions should be followed when deleting property from the original report?",
+        "answer1": "Record the value of the property deleted in the DELETE FROM ORIGINAL REPORT box.",
+        "answer2": "List the item number(s) of the deleted property in the ITEM NOS. RECOVERED/DELETED box.",
+        "answer3": "Strike out RECOVERED in the ITEM NOS. RECOVERED/DELETED box for the deleted property.",
+        "answer4": "Insert 'All Items' in the ITEM NOS. RECOVERED/DELETED box if a total deletion is to be made.",
+        "answer5": "All of the above",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "107": {
+        "questionType": "trueOrFalse",
+        "question": "The dollar value stolen/lost should be recorded in the TOTAL RECOVERY box when all of the property reported stolen or lost on the original and connecting reports has been recovered.",
+        "correctAnswer": "false"
+        },
+    "108": {
+        "questionType": "multipleChoice",
+        "question": "When should you mark the 'DESCRIPTION CHANGE' box?",
+        "answer1": "When an item is recovered",
+        "answer2": "When it is necessary to change an item's description",
+        "answer3": "When an item is deleted",
+        "answer4": "When a serial number is obtained",
+        "correctAnswer": "answer2"
+        },
+    "109": {
+        "questionType": "trueOrFalse",
+        "question": "The detective should query the Automated Firearms System (AFS) if the serial number of a firearm is not included in the original report.",
+        "correctAnswer": "true"
+        },
+    "110": {
+        "questionType": "selectAllThatApply",
+        "question": "What must be included in a Form 03.14.00 if a serial number of a firearm is obtained?",
+        "answer1": "FIREARM in RED at the top of the report",
+        "answer2": "The word 'AFS' in the narrative",
+        "answer3": "The complete description and original item number in the narrative",
+        "answer4": "The heading must be either PROPERTY RECOVERED or PROPERTY DELETED",
+        "answer5": "The statement 'ENTER INTO AFS' centered directly below the firearm description",
+        "correctAnswer": ["answer1", "answer3", "answer5"]
+        },
+    "111": {
+        "questionType": "trueOrFalse",
+        "question": "A Form 03.14.00 should be completed if an LAPD reported stolen or lost firearm is recovered or deleted.",
+        "correctAnswer": "true"
+        },
+    "112": {
+        "questionType": "multipleChoice",
+        "question": "What should be written in RED at the top of the report when completing a Form 03.14.00 for a recovered or deleted firearm?",
+        "answer1": "FIREARM",
+        "answer2": "PROPERTY RECOVERED",
+        "answer3": "PROPERTY DELETED",
+        "answer4": "ITEM NO. RECOVERED/DELETED",
+        "correctAnswer": "answer1"
+        },
+    "113": {
+        "questionType": "multipleChoice",
+        "question": "What must be included in the narrative when completing a Form 03.14.00 for a recovered or deleted firearm?",
+        "answer1": "The detective's name",
+        "answer2": "The date the firearm was recovered or deleted",
+        "answer3": "The victim's/owner's name and the serial number of the firearm",
+        "answer4": "The location where the firearm was recovered or deleted",
+        "correctAnswer": "answer3"
+        },
+    "114": {
+        "questionType": "multipleChoice",
+        "question": "What should be done if the detective is unable to obtain the firearm serial number?",
+        "answer1": "Complete Form 03.14.00",
+        "answer2": "Document the efforts to obtain the serial number on Form 01.44.00 or Form 03.11.06",
+        "answer3": "Mark the 'ITEM NO. RECOVERED/DELETED' box",
+        "answer4": "Contact the Automated Firearms System (AFS)",
+        "correctAnswer": "answer2"
+        },
+    "115": {
+        "questionType": "multipleChoice",
+        "question": "What information should be completed for each suspect when making a final disposition on a case?",
+        "answer1": "Only new suspect information",
+        "answer2": "All known information for each suspect",
+        "answer3": "Repeat information from previous reports",
+        "answer4": "Additional information not related to suspects",
+        "correctAnswer": "answer2"
+        },
+    "116": {
+        "questionType": "trueOrFalse",
+        "question": "The sex box should be completed for each suspect.",
+        "correctAnswer": "true"
+        },
+    "117": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the possible actions taken for adult suspects?",
+        "answer1": "Charge(s) filed and number of counts for each",
+        "answer2": "City Attorney hearing (include date and time)",
+        "answer3": "District Attorney, City Attorney or detective supervisors reject [849(b)(1)]",
+        "answer4": "Released to (name of agency)",
+        "answer5": "Other (specify)",
+        "answer6": "Not arrested",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6"]
+        },
+    "118": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the possible actions taken for juvenile suspects?",
+        "answer1": "Petition requested [include charge(s) and count(s)]",
+        "answer2": "C & R (counseled and released)",
+        "answer3": "Action suspended",
+        "answer4": "Exonerated (innocent)",
+        "answer5": "Released (insufficient evidence)",
+        "answer6": "Referred to California Youth Authority (CYA)",
+        "answer7": "Referred to Department of Probation",
+        "answer8": "Other (specify)",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6", "answer7", "answer8"]
+        },
+    "119": {
+        "questionType": "trueOrFalse",
+        "question": "The LAPD Booking Number should be recorded if the CII Number or Main Number is not available.",
+        "correctAnswer": "true"
+        },
+    "120": {
+        "questionType": "multipleChoice",
+        "question": "When are the titles on the vertical columns of the Follow-up Investigation, Form 03.14.00, used?",
+        "answer1": "When the Form 03.14.00 is used as a follow-up report to multiple reports",
+        "answer2": "When the Form 03.14.00 is used as a follow-up report to a single report or singular set of circumstances",
+        "answer3": "When the suspect is a juvenile",
+        "answer4": "When the suspect is not arrested",
+        "correctAnswer": "answer1"
+        },
+    "121": {
+        "questionType": "multipleChoice",
+        "question": "What is the purpose of the short, opening statement in the narrative portion of the Form 03.14.00?",
+        "answer1": "To summarize the crime(s) that occurred",
+        "answer2": "To explain the reason(s) for initiating the follow-up report",
+        "answer3": "To provide additional information necessary to complete the boxes in the upper and middle portion of the form",
+        "answer4": "To document property changes",
+        "correctAnswer": "answer2"
+        },
+    "122": {
+        "questionType": "selectAllThatApply",
+        "question": "What information should be included in the Follow-up Investigation to support a successful prosecution?",
+        "answer1": "Corpus Delicti",
+        "answer2": "Suspect and Evidence ID Information",
+        "answer3": "Short oral statements",
+        "answer4": "Mandatory Marsy's Rights Card",
+        "answer5": "Audio Recordings",
+        "answer6": "Evidence",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6"]
+        },
+    "123": {
+        "questionType": "trueOrFalse",
+        "question": "It is necessary to document the results or status of any evidence submitted for scientific analysis.",
+        "correctAnswer": "true"
+        },
+    "124": {
+        "questionType": "multipleChoice",
+        "question": "What should be listed in the same order they appear in the Form 03.14.00?",
+        "answer1": "Additional information necessary to complete the boxes in the upper and middle portion of the form",
+        "answer2": "Property changes",
+        "answer3": "The results of additional investigation made following the completion of the original report(s)",
+        "answer4": "The circumstances of the crime(s) based on the facts revealed from the follow-up investigation",
+        "correctAnswer": "answer1"
+        },
+    "125": {
+        "questionType": "trueOrFalse",
+        "question": "The follow-up investigation should include additional information required to support a successful prosecution.",
+        "correctAnswer": "true"
+        },
+    "126": {
+        "questionType": "trueOrFalse",
+        "question": "Is any portion of Form 03.14.00 governed by the rules applicable to multiple reports?",
+        "correctAnswer": "false"
+        },
+    "127": {
+        "questionType": "multipleChoice",
+        "question": "What is the purpose of a multiple Form 03.14.00?",
+        "answer1": "To record additional property loss or change a description",
+        "answer2": "To report the progress on and/or record property recoveries on two or more reports involving the same suspect(s)",
+        "answer3": "To record partial deletions on two or more crime reports involving the same victim",
+        "answer4": "To report the status of current missing juveniles",
+        "correctAnswer": "answer2"
+        },
+    "128": {
+        "questionType": "selectAllThatApply",
+        "question": "What are the requirements for multiple reports involving cross complaints?",
+        "answer1": "All suspects are listed in the suspect information boxes",
+        "answer2": "Each crime report (and its victim) is listed",
+        "answer3": "The narrative clearly indicates which person is the suspect and/or victim in each crime",
+        "answer4": "The types of crimes or incidents reported may be different, but the suspects and/or victims shall be the same",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "129": {
+        "questionType": "trueOrFalse",
+        "question": "When listing DR numbers in ascending order, both the year and Area digits must be considered",
+        "correctAnswer": "true"
+        },
+    "130": {
+        "questionType": "multipleChoice",
+        "question": "When should the oldest DR number be used as the Master DR number?",
+        "answer1": "When it has been used and referred to in reports",
+        "answer2": "When there are additional, older cases to be included",
+        "answer3": "Both a and b",
+        "answer4": "None of the above",
+        "correctAnswer": "answer3"
+        },
+    "131": {
+        "questionType": "multipleChoice",
+        "question": "Which boxes are used on the middle portion of the form for a multiple follow-up report?",
+        "answer1": "Only the suspect information boxes",
+        "answer2": "Only the victim information boxes",
+        "answer3": "Both the suspect and victim information boxes",
+        "answer4": "None of the above",
+        "correctAnswer": "answer1"
+        },
+    "132": {
+        "questionType": "trueOrFalse",
+        "question": "The INV. DIV. CHANGE box can be used when writing a follow-up to transfer investigative responsibility to another area/specialized division.",
+        "correctAnswer": "true"
+        },
+    "133": {
+        "questionType": "selectAllThatApply",
+        "question": "What information must be listed for each crime report when using the multiple report format?",
+        "answer1": "Cleared by Arrest",
+        "answer2": "Cleared Other",
+        "answer3": "Unfounded",
+        "answer4": "Investigation Continued",
+        "answer5": "Victim information",
+        "answer6": "Suspect information",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        }
 }
