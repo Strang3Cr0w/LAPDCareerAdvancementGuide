@@ -224,4 +224,8 @@ button{
         top: 75%;
         left: 15%;
     }
+
+    #reported{
+        margin-right: 35px;
+    }
 }
