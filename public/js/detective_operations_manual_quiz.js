@@ -316,13 +316,15 @@ const selectAllThatApply = questionObj =>{
     answer8.addEventListener("click", answer8Toggle);
 
     const answerCheck = () =>{
-        let listMatch = true;
+        let listMatch = false;
         selectedAnswerList.sort();
         for(let i = 0; i < selectedAnswerList.length; i++){
             if(selectedAnswerList[i] != correctAnswerList[i]){
                 console.log(selectedAnswerList[i] + " != " + correctAnswerList[i]);
                 listMatch = false;
                 break;
+            }else{
+                listMatch = true;
             }        
         }
         if(listMatch){
