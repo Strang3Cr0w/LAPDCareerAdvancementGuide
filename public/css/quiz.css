@@ -78,6 +78,42 @@ button{
     color: black;
     font-weight: bold;
 }
+
+#report_box{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    background-color: #fff;
+    border: solid 5px black;
+    border-radius: 5px;
+    padding: 2%;
+    transition: opacity 0.5s;
+    display:none;
+    opacity: 1;
+}
+
+#report_submit{
+    margin-right: 5%;
+    width: 10rem;
+    height: 2.5rem;
+    background: rgb(1, 1, 65);
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#reported{
+    float: right;
+    margin-right: 65px;
+    margin-top: 10px;
+    font-weight: 1000;
+    color:red;
+    display:none;
+}
   
 #links{
     padding-top: 2rem;
@@ -127,14 +163,14 @@ button{
         margin-left: 1.5rem;
     }
 
-    #next{
+    button{
         width: 8rem;
         height: 2rem;
         font-size: 1rem;
         margin-right: 2.5%;
     }
 
-    #links ul li{
+    #links li{
         margin-left: 15%;
         font-size: 1.5rem;
     }
@@ -164,16 +200,28 @@ button{
         margin-left: 1.5rem;
     }
 
-    #next{
+    button{
         width: 8rem;
         height: 2rem;
         font-size: 1rem;
         margin-right: 2.5%;
     }
 
-    #links ul li{
+    #report_submit{
+        width: 8rem;
+        height: 2rem;
+        font-size: 1rem;
+        margin-right: 20%;
+    }
+
+    #links li{
         margin-left: 1rem;
-        font-size: 1.5rem;
+        font-size: 16px;
         margin-top: 1%;
+    }
+
+    #report_box{
+        top: 75%;
+        left: 15%;
     }
 }
