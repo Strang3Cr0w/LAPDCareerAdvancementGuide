@@ -1038,5 +1038,130 @@ let detective_operations_questions_repo = {
         "answer5": "Victim information",
         "answer6": "Suspect information",
         "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "134": {
+        "questionType": "multipleChoice",
+        "question": "What is the purpose of the column labeled 'Column 1 - Partial Recovery/Total Recovery/Deletion (P/T/D)'?",
+        "answer1": "To record the DR number",
+        "answer2": "To indicate the type of crime",
+        "answer3": "To record the property recovered or deleted",
+        "answer4": "To list the victim's name",
+        "correctAnswer": "answer3"
+        },
+    "135": {
+            "questionType": "trueOrFalse",
+            "question": "If there is a partial recovery of property, the item number(s) of the recovered property should be listed below the DR number.",
+            "correctAnswer": "true"
+        },
+    "136": {
+            "questionType": "multipleChoice",
+            "question": "What should be indicated by placing a capital 'T' in 'Column 1 - Partial Recovery/Total Recovery/Deletion (P/T/D)'?",
+            "answer1": "Partial recovery of property",
+            "answer2": "Total recovery of property",
+            "answer3": "Total deletion of property",
+            "answer4": "No recovery or deletion",
+            "correctAnswer": "answer2"
+        },
+    "137": {
+            "questionType": "multipleChoice",
+            "question": "What does the heading 'FIREARM RECOVERED or FIREARM DELETED' indicate?",
+            "answer1": "The type of crime",
+            "answer2": "The DR number",
+            "answer3": "The presence of a firearm in the recovered/deleted property",
+            "answer4": "The value of the reported missing property",
+            "correctAnswer": "answer3"
+        },
+    "138": {
+            "questionType": "multipleChoice",
+            "question": "What information is recorded in 'Column 2 - Multiple Report: DR Number'?",
+            "answer1": "The type of crime",
+            "answer2": "The DR number",
+            "answer3": "The value of the reported missing property",
+            "answer4": "The victim's name",
+            "correctAnswer": "answer2"
+        },
+    "139": {
+            "questionType": "multipleChoice",
+            "question": "What should be recorded in 'Column 3 - Type of Crime'?",
+            "answer1": "The type of report to which the DR number relates",
+            "answer2": "The reporting district",
+            "answer3": "The value of the reported missing property",
+            "answer4": "The victim's name",
+            "correctAnswer": "answer1"
+        },
+    "140": {
+            "questionType": "multipleChoice",
+            "question": "What information is recorded in 'Column 4 - Reporting District (RD)'?",
+            "answer1": "The type of crime",
+            "answer2": "The DR number",
+            "answer3": "The reporting district",
+            "answer4": "The victim's name",
+            "correctAnswer": "answer3"
+        },
+    "141": {
+            "questionType": "multipleChoice",
+            "question": "What information is recorded in 'Column 5 - Victim's Name'?",
+            "answer1": "The type of crime",
+            "answer2": "The DR number",
+            "answer3": "The reporting district",
+            "answer4": "The victim's name",
+            "correctAnswer": "answer4"
+        },
+    "142": {
+            "questionType": "multipleChoice",
+            "question": "What information is recorded in 'Column 6 - Date Original Report'?",
+            "answer1": "The type of crime",
+            "answer2": "The DR number",
+            "answer3": "The reporting district",
+            "answer4": "Record the date on which the original report was taken",
+            "correctAnswer": "answer4"
+        },
+    "143": {
+        "questionType": "multipleChoice",
+        "question": "What information is recorded in 'Column 7 - Value'?",
+        "answer1": "The type of crime",
+        "answer2": "The DR number",
+        "answer3": "The value of the reported missing property",
+        "answer4": "The victim's name",
+        "correctAnswer": "answer3"
+        },
+    "144": {
+        "questionType": "selectAllThatApply",
+        "question": "What must be included in the summary of crime clearances and/or investigations?",
+        "answer1": "Clearances based on MO",
+        "answer2": "Clearances based on confession",
+        "answer3": "Corroborating evidence",
+        "answer4": "Narratives for each cleared crime",
+        "answer5": "Reasons for unfounding reports",
+        "answer6": "Details of ongoing investigations",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5"]
+        },
+    "145": {
+            "questionType": "multipleChoice",
+            "question": "What should be done with the Follow-up Investigation Form 03.14.00 after review and approval?",
+            "answer1": "Hold it for further distribution",
+            "answer2": "Distribute it immediately",
+            "answer3": "Send it to the detective supervisor",
+            "answer4": "Consolidate it into the work folder",
+            "correctAnswer": "answer2"
+        },
+    "146": {
+            "questionType": "selectAllThatApply",
+            "question": "Where should copies of Form 03.14.00 be maintained within an Area detective division or specialized detective division?",
+            "answer1": "Work folder or Murder Book",
+            "answer2": "Control folder",
+            "answer3": "Detective's Case Envelope",
+            "answer4": "Warrant package",
+            "answer5": "Juvenile Case Package",
+            "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "147": {
+            "questionType": "multipleChoice",
+            "question": "Which Department Manual section provides guidance on property disposition boxes?",
+            "answer1": "Department Manual Section 4/790.12",
+            "answer2": "Department Manual Section 15.15",
+            "answer3": "Department Manual Section 03.14.00",
+            "answer4": "Department Manual Section 10.06.00",
+            "correctAnswer": "answer1"
         }
 }
