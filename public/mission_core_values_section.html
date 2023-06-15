@@ -7,25 +7,49 @@
     <title>Mission and Core Values Quiz</title>
     <link href="./css/quiz.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-    <script src="./js/mission_core_values_section.js" type="text/javascript" defer></script>
+    <script src="./js/mission_core_values_quiz.js" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/ce15d65cdc.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="wrapper">
         <h1>LAPD Mission Statement and Core Values</h1>
         <div class="question_box">
             <p id="question" ></p>
-            <div class="answers">
-                <p id="answer1"></p>
-                <p id="answer2"></p>
-                <p id="answer3"></p>
-                <p id="answer4"></p>
-            </div>
+            <br>
+            <strong><p id="question_details" style="display:none"></p></strong>
+            <ul id="answers">
+                <li id="true" style="display:none"></li>
+                <li id="false" style="display:none"></li>
+                <li id="answer1" style="display:none"></li>
+                <li id="answer2" style="display:none"></li>
+                <li id="answer3" style="display:none"></li>
+                <li id="answer4" style="display:none"></li>
+                <li id="answer5" style="display:none"></li>
+                <li id="answer6" style="display:none"></li>
+                <li id="answer7" style="display:none"></li>
+                <li id="answer8" style="display:none"></li>
+            </ul>
             <div>
                 <span id="rightWrong"></span>
             </div>
             <div>
-                <button id="next">Next</button>
+                <button id="next">Next</button><br><br><br>
+                <button id="report"><i class="fa-solid fa-flag"></i> Report</button>
+                <p id="reported">Reported</p>
                 <br><br>
+            </div>
+            <div id="report_box">
+                <form name="submit-to-google-sheet">
+                    <p><i class="fa-solid fa-flag"></i> What's the reason?</p><br>
+                    <input name="Number" id="question_number" value="" style="display:none">
+                    <input name="Question" id="question_text" value="" style="display:none">
+                    <input type="radio" id="wrong" name="Reason" value="wrong" required>
+                    <label for="wrong">Answer is wrong</label><br><br>
+                    <input type="radio" id="confusing" name="Reason" value="confusing" required>
+                    <label for="confusing">Question is confusing/doesn't make sense</label><br><br>
+                    <button type="button" id="report_submit"></i>Submit</button><br><br><br><br>
+                    <a href="#" id="cancel_report">Cancel</a>
+                </form>
             </div>
         </div>
         <div id="links">
