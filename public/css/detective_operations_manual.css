@@ -30,6 +30,10 @@ h1{
     padding: 1em;
 }
 
+iframe{
+    display: none;
+}
+
 p{
     color:#fff;
 }
@@ -79,6 +83,16 @@ ul li a:hover{
         margin-left: 1%;
         font-size: 24px;
         margin-top: 20px;
+    }
+
+    object{
+        display: none;
+    }
+
+    iframe{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     ul li{
