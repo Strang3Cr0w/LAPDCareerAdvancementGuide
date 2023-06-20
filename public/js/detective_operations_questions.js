@@ -1163,5 +1163,76 @@ let detective_operations_questions_repo = {
             "answer3": "Department Manual Section 03.14.00",
             "answer4": "Department Manual Section 10.06.00",
             "correctAnswer": "answer1"
-        }
+        },
+    "148": {
+            "questionType": "trueOrFalse",
+            "question": "The Disposition of Arrest and Court Action form is used to verify and update the original entry of an arrest.",
+            "correctAnswer": "true"
+        },
+    "149": {
+            "questionType": "multipleChoice",
+            "question": "What is the purpose of the Disposition of Arrest and Court Action form?",
+            "answer1": "To initiate an arrest",
+            "answer2": "To document court proceedings",
+            "answer3": "To verify and update the original entry of an arrest",
+            "answer4": "To request fingerprint analysis",
+            "correctAnswer": "answer3"
+        },
+    "150": {
+            "questionType": "selectAllThatApply",
+            "question": "Which statements are true regarding the Form 05.09.00?",
+            "answer1": "It is used to enter information into the Juvenile Automated Index (JAI) for juvenile arrests",
+            "answer2": "It is matched with the CII Arrest Notification",
+            "answer3": "It is matched with Livescan",
+            "answer4": "It is a state form",
+            "answer5": "It initiates court proceedings",
+            "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "151": {
+            "questionType": "trueOrFalse",
+            "question": "A Form 05.09.00 should be initiated during the booking process or immediately after relevant information is learned.",
+            "correctAnswer": "true"
+        },
+    "152": {
+            "questionType": "multipleChoice",
+            "question": "When should a Form 05.09.00 be completed?",
+            "answer1": "After the arrestee is released to another law enforcement agency",
+            "answer2": "When a complaint is rejected",
+            "answer3": "When the charge is released",
+            "answer4": "All of the above",
+            "correctAnswer": "answer4"
+        },
+    "153": {
+            "questionType": "selectAllThatApply",
+            "question": "In which situations should a Form 05.09.00 be initiated and completed by the investigating officer?",
+            "answer1": "When an arrestee has been booked by another agency and released to this Department without rebooking",
+            "answer2": "When a complaint is obtained for a prisoner who remains in the custody of another law enforcement agency",
+            "answer3": "When an adult is arrested for a non-recordable offense",
+            "answer4": "When a juvenile arrest report is completed",
+            "answer5": "When an arrestee is released on bail",
+            "correctAnswer": ["answer1", "answer2"]
+        },
+    "154": {
+            "questionType": "multipleChoice",
+            "question": "When should a Form 05.09.00 be initiated for the primary booking charge?",
+            "answer1": "After the arrestee is released on bail",
+            "answer2": "During the booking process",
+            "answer3": "When the investigating officer is assigned",
+            "answer4": "When the arrest is a non-warrant arrest",
+            "correctAnswer": "answer2"
+        },
+    "155": {
+            "questionType": "trueOrFalse",
+            "question": "A Form 05.09.00 is required for an out-of-county misdemeanor warrant or parole violation.",
+            "correctAnswer": "true"
+        },
+    "156": {
+        "questionType": "selectAllThatApply",
+        "question": "In which situations should a Form 05.09.00 be attached to the Custody Record?",
+        "answer1": "When the arrestee is booked into a Department facility for a non-Ramey, in-county arrest warrant",
+        "answer2": "When the arrestee is booked into a Department facility for an out-of-county misdemeanor warrant",
+        "answer3": "When the arrestee is released from Department custody",
+        "answer4": "When the arrestee is released on own recognizance (O.R.), on a writ, or on bail",
+        "correctAnswer": ["answer1", "answer2", "answer3"]
+        } 
 }
