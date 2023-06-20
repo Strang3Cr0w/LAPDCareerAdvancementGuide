@@ -1,0 +1,47 @@
+#wrapper{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page{
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/* CSS for Two Columns */
+.container {
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  /* CSS for Vertical Line */
+  .vertical-line {
+    width: 1px;
+    background-color: #000;
+    margin: 10px;
+  }
+
+  .horizontal-line {
+    border-top: 1px solid #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    margin: 0 0 10px 0;
+}
