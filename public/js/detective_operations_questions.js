@@ -1266,7 +1266,7 @@ let detective_operations_questions_repo = {
         },
     "161": {
         "questionType": "trueOrFalse",
-        "question": "When no local charges are filed and the arrestee is released to the California Department of Corrections (CDC)–State Parole, the investigating officer should report this information on the Form 05.09.00 prepared for the primary booking charge.",
+        "question": "When no local charges are filed and the arrestee is released to the California Department of Corrections (CDC)-State Parole, the investigating officer should report this information on the Form 05.09.00 prepared for the primary booking charge.",
         "correctAnswer": "true"
         },
     "162": {
@@ -1331,7 +1331,7 @@ let detective_operations_questions_repo = {
         },
     "170": {
         "questionType": "selectAllThatApply",
-        "question": "Which offenses are excluded from recordable offenses? (Select all that apply)",
+        "question": "Which offenses are excluded from recordable offenses?",
         "answer1": "647(f) PC-(Drunk)-Does not include drugs",
         "answer2": "Violation of a local ordinance",
         "answer3": "Violation of any statute for which incarceration is not a possible punishment",
@@ -1361,7 +1361,7 @@ let detective_operations_questions_repo = {
         },
     "174": {
         "questionType": "selectAllThatApply",
-        "question": "Which statements are true regarding the completion of Box Descriptors on Form 5.09.00? (Select all that apply)",
+        "question": "Which statements are true regarding the completion of Box Descriptors on Form 5.09.00?",
         "answer1": "The same instructions apply to other forms such as the Los Angeles Consolidated Booking Form",
         "answer2": "The same instructions apply to the DABIS Booking Form",
         "answer3": "The same instructions apply to Form 5.01.02",
@@ -1384,7 +1384,7 @@ let detective_operations_questions_repo = {
         },
     "177": {
         "questionType": "selectAllThatApply",
-        "question": "Which options are valid entries for the Sex field? (Select all that apply)",
+        "question": "Which options are valid entries for the Sex field?",
         "answer1": "M - Male",
         "answer2": "F - Female",
         "answer3": "X - Unknown",
@@ -1392,7 +1392,7 @@ let detective_operations_questions_repo = {
         },
     "178": {
         "questionType": "selectAllThatApply",
-        "question": "Which options are valid entries for the Descent field? (Select all that apply)",
+        "question": "Which options are valid entries for the Descent field?",
         "answer1": "A - Other Asian",
         "answer2": "B - Black",
         "answer3": "H - Hispanic",
@@ -1441,7 +1441,7 @@ let detective_operations_questions_repo = {
         },
     "183": {
         "questionType": "selectAllThatApply",
-        "question": "Which of the following charges are classified as 'Other' in the case of juvenile charges on Form 05.09.00? (Select all that apply)",
+        "question": "Which of the following charges are classified as 'Other' in the case of juvenile charges on Form 05.09.00?",
         "answer1": "All 300 WIC",
         "answer2": "All 601 WIC",
         "answer3": "602 WIC (Escape) (Warrant Only)",
@@ -1455,7 +1455,7 @@ let detective_operations_questions_repo = {
         },
     "185": {
         "questionType": "selectAllThatApply",
-        "question": "What should be entered in the Charge & Code and Definition box as found in the current Los Angeles Automated Justice Information System (AJIS) Charge Table when completing Form 05.09.00? (Select all that apply)",
+        "question": "What should be entered in the Charge & Code and Definition box as found in the current Los Angeles Automated Justice Information System (AJIS) Charge Table when completing Form 05.09.00?",
         "answer1": "Statutory code section",
         "answer2": "Sub-section",
         "answer3": "Code name abbreviation",
@@ -1499,17 +1499,17 @@ let detective_operations_questions_repo = {
         "question": "The REASON FOR RELEASE section should be completed when the case is presented to the District Attorney's Office or the City Attorney's Office.",
         "correctAnswer": "false"
         },
-    "191": {
+    "192": {
         "questionType": "trueOrFalse",
         "question": "If a case is filed or set for a City Attorney or District Attorney hearing, the Form 05.09.00 should be left with the prosecutorial agency.",
         "correctAnswer": "true"
         },
-    "192": {
+    "193": {
         "questionType": "trueOrFalse",
         "question": "If a filing is rejected and the case is not set for a District Attorney or City Attorney hearing, the prosecuting agency will complete Part B of the Form 05.09.00.",
         "correctAnswer": "true"
         },
-    "193": {
+    "194": {
         "questionType": "multipleChoice",
         "question": "Which boxes of the REASON FOR RELEASE section on Form 05.09.00 are applicable to a juvenile arrest?",
         "answer1": "RELEASE DATE/JUVENILE DISPOSITION DATE",
@@ -1518,27 +1518,27 @@ let detective_operations_questions_repo = {
         "answer4": "None of the boxes",
         "correctAnswer": "answer3"
         },
-    "194": {
+    "195": {
         "questionType": "trueOrFalse",
         "question": "When the 849b(3) PC, 849b(1) PC, or RELEASED TO OTHER AGENCY box is checked, the date of release should be entered on Form 05.09.00.",
         "correctAnswer": "true"
         },
-    "195": {
+    "196": {
         "questionType": "trueOrFalse",
         "question": "Regardless of whether a juvenile is detained or released, the date of the law enforcement disposition should be inserted in the RELEASE DATE/JUVENILE DISPOSITION DATE box on Form 05.09.00.",
         "correctAnswer": "true"
         },
-    "196": {
+    "197": {
         "questionType": "trueOrFalse",
         "question": "When an adult arrestee is booked only for being under the influence of a narcotic drug or restricted dangerous drug and no further proceedings are desirable, the 849b(3) PC box on Form 05.09.00 should be checked.",
         "correctAnswer": "true"
         },
-    "197": {
+    "198": {
         "questionType": "trueOrFalse",
         "question": "When an adult is arrested without a warrant and released without a case being presented to a prosecuting agency, the 849b(1) PC box on Form 05.09.00 should be checked.",
         "correctAnswer": "true"
         },
-    "198": {
+    "199": {
         "questionType": "selectAllThatApply",
         "question": "When the 849b(1) PC box is checked on Form 05.09.00 for release without a case being presented to a prosecuting agency, which reasons for release should be checked?",
         "answer1": "Complainant refuses to prosecute",
@@ -1548,21 +1548,21 @@ let detective_operations_questions_repo = {
         "answer5": "Further investigation",
         "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5"]
         },
-    "199": {
+    "200": {
         "questionType": "selectAllThatApply",
         "question": "When an arrestee is being released due to 825 PC, which boxes should be marked on Form 05.09.00?",
         "answer1": "849b(1) PC",
         "answer2": "FURTHER INVESTIGATION",
         "answer3": "825 PC",
         "answer4": "Admissible evidence insufficient",
-        "correctAnswer": ["answer1", "answer2",]
+        "correctAnswer": ["answer1", "answer2"]
         },
-    "200": {
+    "201": {
         "questionType": "trueOrFalse",
         "question": "If an adult arrestee is released to another agency, the officer authorizing the release should check the RELEASED TO OTHER AGENCY box on Form .05.09.00.",
         "correctAnswer": "true"
         },
-    "201": {
+    "202": {
         "questionType": "selectAllThatApply",
         "question": "What information should be inserted on Form 05.09.00 when an adult arrestee is released to another agency?",
         "answer1": "Name of the agency",
@@ -1571,7 +1571,7 @@ let detective_operations_questions_repo = {
         "answer4": "Their jurisdiction",
         "correctAnswer": ["answer1", "answer2"]
         },
-    "202": {
+    "203": {
         "questionType": "selectAllThatApply",
         "question": "When an arrestee bails out on an out-of-county warrant, what should be checked and inserted on Form 05.09.00?",
         "answer1": "RELEASED TO OTHER AGENCY box",
@@ -1579,12 +1579,12 @@ let detective_operations_questions_repo = {
         "answer3": "Name and address of each court",
         "correctAnswer": ["answer1", "answer2", "answer3"]
         },
-    "203": {
+    "204": {
         "questionType": "trueOrFalse",
         "question": "The REMARKS box on Form 05.09.00 is used when none of the given reasons for release apply.",
         "correctAnswer": "true"
         },
-    "204": {
+    "205": {
         "questionType": "multipleChoice",
         "question": "When an arrestee is booked on more than one out-of-county warrant and no local or in-county charge is involved, what should be indicated under the REMARKS field on Form 05.09.00 as the primary charge?",
         "answer1": "The least serious offense",
@@ -1593,15 +1593,15 @@ let detective_operations_questions_repo = {
         "answer4": "The offense with the highest bail amount",
         "correctAnswer": "answer2"
         },
-    "205": {
+    "206": {
         "questionType": "selectAllThatApply",
         "question": "What should be inserted in the REMARKS box on Form 05.09.00 when an arrestee booked by another agency is released to LAPD custody but not subsequently booked by this Department?",
         "answer1": "Booking number used by the original arresting agency",
-        "answer2": "Booked by (agency/agency type)–released to, not booked, Los Angeles PD",
+        "answer2": "Booked by (agency/agency type)-released to, not booked, Los Angeles PD",
         "answer3": "Name of the releasing agency",
         "correctAnswer": ["answer1", "answer2"]
         },
-    "206": {
+    "207": {
         "questionType": "selectAllThatApply",
         "question": "In what situations should the REMARKS box on Form 05.09.00 be used?",
         "answer1": "When an arrestee is a juvenile",
@@ -1609,17 +1609,17 @@ let detective_operations_questions_repo = {
         "answer3": "When an arrestee is rebooked by the Department after being released by another agency",
         "correctAnswer": ["answer1", "answer2", "answer3"]
         },
-    "207": {
+    "208": {
         "questionType": "trueOrFalse",
         "question": "The box for 'Other' on Form 05.09.00 should be checked when none of the given reasons for release apply.",
         "correctAnswer": "true"
         },
-    "208": {
+    "209": {
         "questionType": "trueOrFalse",
         "question": "Detectives can alter the nine-line information on the original Form 05.09.00 without altering the corresponding information on all pages of the Consolidated Booking Form.",
         "correctAnswer": "false"
         },
-    "209": {
+    "210": {
         "questionType": "selectAllThatApply",
         "question": "What are the correct steps for correcting a Form 05.09.00 which has already been distributed?",
         "answer1": "Initiate the new Form 05.09.00 by making a photocopy of the original or completing a new Form 05.09.00, duplicating the information exactly from the original.",
@@ -1630,7 +1630,7 @@ let detective_operations_questions_repo = {
         "answer6": "For all juveniles, send the corrected copy to the Juvenile Records Unit, R&I Division",
         "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5", "answer6"]
         },
-    "210": {
+    "211": {
         "questionType": "selectAllThatApply",
         "question": "How should adult arrestee forms 05.09.00 be distributed?",
         "answer1": "Left with the prosecuting agency when a case has been filed or set for a hearing",
@@ -1641,7 +1641,7 @@ let detective_operations_questions_repo = {
         "answer6": "Sent to court if it does not fit into any of the specified categories",
         "correctAnswer": ["answer1", "answer2", "answer3", "answer4", "answer5"]
         },
-    "211": {
+    "212": {
         "questionType": "selectAllThatApply",
         "question": "How should juvenile arrest Forms 05.09.00 be distributed?",
         "answer1": "Sent to Juvenile Records, R&I Division after the disposition is determined",
@@ -1650,12 +1650,12 @@ let detective_operations_questions_repo = {
         "answer4": "Sent to court if it does not fit into any of the specified categories",
         "correctAnswer": ["answer1", "answer2"]
         },
-    "212": {
+    "213": {
         "questionType": "trueOrFalse",
         "question": "A Certificate of Release, Form 08.16.00, is issued when an arrestee is released without being scheduled for a court appearance.",
         "correctAnswer": "true"
         },
-    "213" : {
+    "214" : {
         "questionType": "selectAllThatApply",
         "question": "Where should the original of the Certificate of Release be attached?",
         "answer1": "Form 05.09.00",
@@ -1663,17 +1663,17 @@ let detective_operations_questions_repo = {
         "answer3": "Form 08.16.00",
         "correctAnswer": ["answer1", "answer2"]
         },
-    "214": {
+    "215": {
         "questionType": "trueOrFalse",
         "question": "The Certificate of Release is forwarded to the CRUU, R&I Division.",
         "correctAnswer": "true"
         },
-    "215": {
+    "216": {
         "questionType": "trueOrFalse",
         "question": "A copy of the certificate is always given to the arrestee.",
         "correctAnswer": "false"
         },
-    "216": {
+    "217": {
         "questionType": "multipleChoice",
         "question": "What is the purpose of the Investigator's Final Report, Form 05.10.00?",
         "answer1": "To record booking disposition and arrestee personal data/background information",
@@ -1682,7 +1682,7 @@ let detective_operations_questions_repo = {
         "answer4": "To change the case status of a crime",
         "correctAnswer": "answer1"
         },
-    "217": {
+    "218": {
         "questionType": "selectAllThatApply",
         "question": "What are some of the uses of the Investigator's Final Report, Form 05.10.00?",
         "answer1": "Record felony and certain misdemeanor adult booking dispositions",
@@ -1695,22 +1695,22 @@ let detective_operations_questions_repo = {
         "answer8": "To report statistical information to the California Attorney General",
         "correctAnswer": ["answer1", "answer2", "answer4", "answer5", "answer6", "answer7"]
         },
-    "218": {
+    "219": {
         "questionType": "trueOrFalse",
         "question": "A Form 05.10.00 should be completed immediately during the booking process.",
         "correctAnswer": "true"
         },
-    "219": {
+    "220": {
         "questionType": "trueOrFalse",
         "question": "The Investigator's Final Report, Form 05.10.00, can be used to change the case status of a crime under certain circumstances.",
         "correctAnswer": "true"
         },
-    "220" :{
+    "221" :{
         "questionType": "trueOrFalse",
         "question": "The Investigator's Final Report, Form 05.10.00, is initiated during the booking process for adult arrestees.",
         "correctAnswer": "true"
         },
-    "221": {
+    "222": {
         "questionType": "selectAllThatApply",
         "question": "When should a Form 05.10.00 be completed?",
         "answer1": "When the arrestee has been booked for a felony crime or warrant",
@@ -1719,7 +1719,7 @@ let detective_operations_questions_repo = {
         "answer4": "When an arrestee is booked for a Department obtained warrant",
         "correctAnswer": ["answer1", "answer2", "answer3"]
         },
-    "222": {
+    "223": {
         "questionType": "multipleChoice",
         "question": "Which parts of the Form 05.10.00 are normally completed by the booking employee?",
         "answer1": "Part B through Part G",
@@ -1728,12 +1728,12 @@ let detective_operations_questions_repo = {
         "answer4": "Part A and Part C",
         "correctAnswer": "answer3"
         },
-    "223": {
+    "224": {
         "questionType": "trueOrFalse",
         "question": "The assigned detective is responsible for ensuring the accuracy and completion of information in Parts B through G of the Form 05.10.00.",
         "correctAnswer": "true"
         },
-    "224": {
+    "225": {
         "questionType": "selectAllThatApply",
         "question": "When is only Part A and the boxes in Parts B through E marked with an asterisk (*) completed on the Form 05.10.00?",
         "answer1": "When the form is used to authorize a felony release",
@@ -1742,12 +1742,12 @@ let detective_operations_questions_repo = {
         "answer4": "When the form is used for recording juvenile booking disposition",
         "correctAnswer": ["answer2"]
         },
-    "225": {
+    "226": {
         "questionType": "trueOrFalse",
         "question": "The detective responsible for completing the Form 05.10.00 is also responsible for inserting the required information in the DR through PROBATION# boxes.",
         "correctAnswer": "true"
         },
-    "226": {
+    "227": {
         "questionType": "multipleChoice",
         "question": "What are the three columns comprised in Part C of the Form 05.10.00?",
         "answer1": "RELEASE FROM LAPD CUSTODY, ARRESTEE DESCRIPTION, ADDITIONAL ACTIONS",
@@ -1756,12 +1756,12 @@ let detective_operations_questions_repo = {
         "answer4": "BOOKING DATE, ARRESTEE DESCRIPTION, ADDITIONAL ACTIONS",
         "correctAnswer": "answer2"
         },
-    "227": {
+    "228": {
         "questionType": "trueOrFalse",
         "question": "The detective is required to provide a detailed explanation in the EXPLAIN ACTION TAKEN and COMPLAINT FILED boxes in Part E of Form 05.10.00 when entering information in the columns of Part C.",
         "correctAnswer": "true"
         },
-    "228": {
+    "229": {
         "questionType": "multipleChoice",
         "question": "What does the Release From LAPD Custody section of the Form 05.10.00 indicate?",
         "answer1": "Information about the disposition of the booking charge",
@@ -1770,7 +1770,7 @@ let detective_operations_questions_repo = {
         "answer4": "Information about the supervisor's notification",
         "correctAnswer": "answer2"
         },
-    "229": {
+    "230": {
         "questionType": "multipleChoice",
         "question": "What is the required action when a supervisor is notified of the anticipated release of a felony arrestee without a completed Form 05.10.00?",
         "answer1": "Assign an officer to complete the personal data/background information",
@@ -1779,22 +1779,22 @@ let detective_operations_questions_repo = {
         "answer4": "Complete the disposition of the booking charge",
         "correctAnswer": "answer1"
         },
-    "230": {
+    "231": {
         "questionType": "trueOrFalse",
         "question": "When a felony arrestee is released on bail, the Felony Bail box on Form 05.10.00 should be checked and the bail information should be entered.",
         "correctAnswer": "true"
         },
-    "231": {
+    "232": {
         "questionType": "trueOrFalse",
         "question": "When a felony arrestee is released by court order on a writ, the Writ Out box on Form 05.10.00 should be checked.",
         "correctAnswer": "true"
         },
-    "232": {
+    "233": {
         "questionType": "trueOrFalse",
         "question": "When an adult arrestee is being released from custody because there is insufficient evidence to file a criminal complaint and no court appearance is scheduled, the Box 849 (b)(1) PC on Form 05.10.00 should be checked.",
         "correctAnswer": "true"
         },
-    "233": {
+    "234": {
         "questionType": "multipleChoice",
         "question": "What form should be issued to the arrestee when no court appearance is scheduled as a result of the arrest?",
         "answer1": "Form 05.10.00",
@@ -1803,12 +1803,12 @@ let detective_operations_questions_repo = {
         "answer4": "Form 353.13",
         "correctAnswer": "answer2"
         },
-    "234": {
+    "235": {
         "questionType": "trueOrFalse",
         "question": "When the detective intends to seek a complaint against the arrestee but lacks sufficient information and/or time to obtain a complaint within statutory time limits, the Box 825 PC on Form 05.10.00 should be checked.",
         "correctAnswer": "true"
         },
-    "244": {
+    "236": {
         "questionType": "selectAllThatApply",
         "question": "What should be completed within ten working days from the date of case assignment when a suspect has been released under 825 PC?",
         "answer1": "Form 05.10.00",
@@ -1817,12 +1817,12 @@ let detective_operations_questions_repo = {
         "answer4": "Follow-Up Investigation",
         "correctAnswer": ["Form 03.14.00"]
         },
-    "245": {
+    "237": {
         "questionType": "trueOrFalse",
         "question": "When the original booking charge or any other non-related charge cannot be filed by the Department and the arrestee is to be released to an outside agency on a non-warrant case, the Box 'To Other Agency' on Form 05.10.00 should be checked.",
         "correctAnswer": "true"
         },
-    "246": {
+    "238": {
         "questionType": "multipleChoice",
         "question": "In which situations should a Form 08.16.00 be issued to an arrestee released to an outside agency on a non-warrant case?",
         "answer1": "When the original booking charge is unrelated to the outside agency's charge",
@@ -1831,7 +1831,7 @@ let detective_operations_questions_repo = {
         "answer4": "All of the above",
         "correctAnswer": "answer4"
         },
-    "247": {
+    "239": {
         "questionType": "multipleChoice",
         "question": "When a court reviews the PCD (Probable Cause Determination) and determines that there is no probable cause for continued detention, what should detectives circle in the PCD RELEASE box on Form 05.10.00?",
         "answer1": "GRANTED",
@@ -1840,12 +1840,12 @@ let detective_operations_questions_repo = {
         "answer4": "PENDING",
         "correctAnswer": "answer2"
         },
-    "248": {
+    "240": {
         "questionType": "trueOrFalse",
         "question": "If the statutory time for processing the PCD has expired and no PCD is received from the court, detectives should circle 'NOT REC'D' in the PCD RELEASE box on Form 05.10.00.",
         "correctAnswer": "true"
         },
-    "249": {
+    "241": {
         "questionType": "selectAllThatApply",
         "question": "Which information should be entered on Form 05.10.00 when an arrestee is released O.R. (Own Recognizance)?",
         "answer1": "O.R. information in the BAIL-WRIT INFO: box",
@@ -1854,7 +1854,7 @@ let detective_operations_questions_repo = {
         "answer4": "Booking information in the BOOKING INFO: box",
         "correctAnswer": ["answer1", "answer2"]
         },
-    "250": {
+    "242": {
         "questionType": "multipleChoice",
         "question": "What is the purpose of the disposition of booking charge section of Form 05.10.00?",
         "answer1": "To indicate the disposition of the original booking charge.",
@@ -1863,37 +1863,37 @@ let detective_operations_questions_repo = {
         "answer4": "All of the above.",
         "correctAnswer": "answer4"
         },
-    "251": {
+    "243": {
         "questionType": "trueOrFalse",
         "question": "Only one box may be checked in the disposition of booking charge section of Form 05.10.00.",
         "correctAnswer": "True"
         },
-    "252": {
+    "244": {
         "questionType": "trueOrFalse",
         "question": "The box for 'Felony Complaint Filed (Original Charge)' on Form 05.10.00 is checked when a felony complaint is obtained charging the arrestee with the same offense as the original felony booking charge.",
         "correctAnswer": "true"
         },
-    "253": {
+    "245": {
         "questionType": "trueOrFalse",
         "question": "The box for 'Felony Complaint Filed (Other Charge)' on Form 05.10.00 is checked when the District Attorney's Office issues a complaint charging the defendant with a felony offense different from the booking charge.",
         "correctAnswer": "true"
         },
-    "254": {
+    "246": {
         "questionType": "trueOrFalse",
         "question": "The box for 'Misdemeanor Complaint Filed' is checked on Form 05.10.00 when a case is presented to the City Attorney and a misdemeanor complaint is filed.",
         "correctAnswer": "true"
         },
-    "255": {
+    "247": {
         "questionType": "trueOrFalse",
         "question": "Checking the box for 'DA Reject' on Form 05.10.00 indicates that a case has been presented to the District Attorney's Office and a complaint has been rejected.",
         "correctAnswer": "true"
         },
-    "256": {
+    "248": {
         "questionType": "trueOrFalse",
         "question": "If a complaint is rejected and deferred for parole revocation, and the suspect remains incarcerated, the 'OTHER' box on Form 05.10.00 should be checked.",
         "correctAnswer": "true"
         },
-    "257": {
+    "249": {
         "questionType": "trueOrFalse",
         "question": "The 'DA REJECT' box on Form 05.10.00 should not be checked if the District Attorney's Office refers the case to the City Attorney pursuant to 17(b)(4) PC.",
         "correctAnswer": "true"
