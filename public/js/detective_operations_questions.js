@@ -1940,4 +1940,9 @@ let detective_operations_questions_repo = {
         "answer4": "To document the arrest location",
         "correctAnswer": "answer2"
         },
+    "255": {
+        "questionType": "trueOrFalse",
+        "question": "The 'Felony Warrant Served' box on Form 05.10.00 is checked when a felony warrant related to the original booking charge is served.",
+        "correctAnswer": "true"
+        }
 }

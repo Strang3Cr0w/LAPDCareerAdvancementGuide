@@ -12,29 +12,29 @@
 
 /* CSS for Two Columns */
 .container {
-    display: flex;
-  }
+  display: flex;
+}
 
-  .column {
-    flex: 1;
-    padding: 20px;
-  }
+.column {
+  flex: 1;
+  padding: 20px;
+}
 
-  /* CSS for Vertical Line */
-  .vertical-line {
-    width: 1px;
-    background-color: #000;
-    margin: 10px;
-  }
+/* CSS for Vertical Line */
+.vertical-line {
+  width: 1px;
+  background-color: #000;
+  margin: 10px;
+}
 
-  .horizontal-line {
-    border-top: 1px solid #000;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.horizontal-line {
+  border-top: 1px solid #000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 p{
     width: 80%;
