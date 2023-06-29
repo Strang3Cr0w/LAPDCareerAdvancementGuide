@@ -1897,5 +1897,52 @@ let detective_operations_questions_repo = {
         "questionType": "trueOrFalse",
         "question": "The 'DA REJECT' box on Form 05.10.00 should not be checked if the District Attorney's Office refers the case to the City Attorney pursuant to 17(b)(4) PC.",
         "correctAnswer": "true"
+        },
+    "250": {
+        "questionType": "trueOrFalse",
+        "question": "Checking the 'CA Reject' box on Form 05.10.00 indicates that a case has been rejected by the City Attorney.",
+        "correctAnswer": "true"
+        },
+    "251": {
+        "questionType": "multipleChoice",
+        "question": "If the City Attorney elects to handle a case via a City Attorney hearing, which box should be marked on Form 05.10.00?",
+        "answer1": "CA Reject box",
+        "answer2": "OTHER box",
+        "answer3": "ADDITIONAL ACTIONS box",
+        "answer4": "EXPLAIN ACTION TAKEN box",
+        "correctAnswer": "answer2"
+        },
+    "252": {
+        "questionType": "multipleChoice",
+        "question": "When should the '849 (b)(1) PC' box be checked on Form 05.10.00?",
+        "answer1": "When an arrestee is released after a filing or hearing",
+        "answer2": "When there is sufficient evidence to present the case for filing",
+        "answer3": "When a detective supervisor approves the release due to insufficient evidence",
+        "answer4": "When an arrestee is released without any approval",
+        "correctAnswer": "answer3"
+        },
+    "253": {
+        "questionType": "selectAllThatApply",
+        "question": "In which situations should the 'Other box' be checked on Form 05.10.00?",
+        "answer1": "A City Attorney hearing is scheduled",
+        "answer2": "A District Attorney hearing is scheduled",
+        "answer3": "No other disposition is appropriate",
+        "answer4": "Additional action results in further confinement of the arrestee by another law enforcement agency",
+        "answer5": "The arrestee is released without any further action",
+        "correctAnswer": ["answer1", "answer2", "answer3", "answer4"]
+        },
+    "254": {
+        "questionType": "multipleChoice",
+        "question": "What is the purpose of the 'Additional Actions' section on Form 05.10.00?",
+        "answer1": "To indicate the disposition of the booking charge",
+        "answer2": "To indicate actions taken in addition to the disposition of the booking charge",
+        "answer3": "To record the arrestee's personal information",
+        "answer4": "To document the arrest location",
+        "correctAnswer": "answer2"
+        },
+    "255": {
+        "questionType": "trueOrFalse",
+        "question": "The 'Felony Warrant Served' box on Form 05.10.00 is checked when a felony warrant related to the original booking charge is served.",
+        "correctAnswer": "true"
         }
 }
