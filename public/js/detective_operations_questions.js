@@ -979,8 +979,9 @@ let detective_operations_questions_repo = {
         },
     "126": {
         "questionType": "trueOrFalse",
-        "question": "Is any portion of Form 03.14.00 governed by the rules applicable to multiple reports?",
+        "question": "Any portion of the Form 03.14.00 not specifically covered under the rules for multiple follow-up reports shall not be governed by the rules applicable to single reports.",
         "correctAnswer": "false"
+        
         },
     "127": {
         "questionType": "multipleChoice",
@@ -1025,12 +1026,12 @@ let detective_operations_questions_repo = {
         },
     "132": {
         "questionType": "trueOrFalse",
-        "question": "The INV. DIV. CHANGE box can be used when writing a follow-up to transfer investigative responsibility to another area/specialized division.",
+        "question": "The INV. DIV. CHANGE box on Form 03.14.00 can be used when writing a follow-up to transfer investigative responsibility to another area/specialized division.",
         "correctAnswer": "true"
         },
     "133": {
         "questionType": "selectAllThatApply",
-        "question": "What information must be listed for each crime report when using the multiple report format?",
+        "question": "What information must be listed for each crime report when using the multiple report format for Form 03.14.00?",
         "answer1": "Cleared by Arrest",
         "answer2": "Cleared Other",
         "answer3": "Unfounded",
@@ -1041,7 +1042,7 @@ let detective_operations_questions_repo = {
         },
     "134": {
         "questionType": "multipleChoice",
-        "question": "What is the purpose of the column labeled 'Column 1 - Partial Recovery/Total Recovery/Deletion (P/T/D)'?",
+        "question": "What is the purpose of the column labeled 'Column 1 - Partial Recovery/Total Recovery/Deletion (P/T/D)' on Form 03.14.00?",
         "answer1": "To record the DR number",
         "answer2": "To indicate the type of crime",
         "answer3": "To record the property recovered or deleted",
@@ -1050,12 +1051,12 @@ let detective_operations_questions_repo = {
         },
     "135": {
             "questionType": "trueOrFalse",
-            "question": "If there is a partial recovery of property, the item number(s) of the recovered property should be listed below the DR number.",
+            "question": "If there is a partial recovery of property, the item number(s) of the recovered property should be listed below the DR number on Form 03.14.00.",
             "correctAnswer": "true"
         },
     "136": {
             "questionType": "multipleChoice",
-            "question": "What should be indicated by placing a capital 'T' in 'Column 1 - Partial Recovery/Total Recovery/Deletion (P/T/D)'?",
+            "question": "What should be indicated by placing a capital 'T' in 'Column 1 - Partial Recovery/Total Recovery/Deletion (P/T/D)' on Form 03.14.00?",
             "answer1": "Partial recovery of property",
             "answer2": "Total recovery of property",
             "answer3": "Total deletion of property",
@@ -1064,7 +1065,7 @@ let detective_operations_questions_repo = {
         },
     "137": {
             "questionType": "multipleChoice",
-            "question": "What does the heading 'FIREARM RECOVERED or FIREARM DELETED' indicate?",
+            "question": "What does the heading 'FIREARM RECOVERED or FIREARM DELETED' indicate on Form 03.14.00?",
             "answer1": "The type of crime",
             "answer2": "The DR number",
             "answer3": "The presence of a firearm in the recovered/deleted property",
@@ -1073,7 +1074,7 @@ let detective_operations_questions_repo = {
         },
     "138": {
             "questionType": "multipleChoice",
-            "question": "What information is recorded in 'Column 2 - Multiple Report: DR Number'?",
+            "question": "What information is recorded in 'Column 2 - Multiple Report: DR Number' on Form 03.14.00?",
             "answer1": "The type of crime",
             "answer2": "The DR number",
             "answer3": "The value of the reported missing property",
@@ -1082,7 +1083,7 @@ let detective_operations_questions_repo = {
         },
     "139": {
             "questionType": "multipleChoice",
-            "question": "What should be recorded in 'Column 3 - Type of Crime'?",
+            "question": "What should be recorded in 'Column 3 - Type of Crime'? on Form 03.14.00",
             "answer1": "The type of report to which the DR number relates",
             "answer2": "The reporting district",
             "answer3": "The value of the reported missing property",
@@ -1091,7 +1092,7 @@ let detective_operations_questions_repo = {
         },
     "140": {
             "questionType": "multipleChoice",
-            "question": "What information is recorded in 'Column 4 - Reporting District (RD)'?",
+            "question": "What information is recorded in 'Column 4 - Reporting District (RD)' on Form 03.14.00?",
             "answer1": "The type of crime",
             "answer2": "The DR number",
             "answer3": "The reporting district",
@@ -1100,7 +1101,7 @@ let detective_operations_questions_repo = {
         },
     "141": {
             "questionType": "multipleChoice",
-            "question": "What information is recorded in 'Column 5 - Victim's Name'?",
+            "question": "What information is recorded in 'Column 5 - Victim's Name' on Form 03.14.00?",
             "answer1": "The type of crime",
             "answer2": "The DR number",
             "answer3": "The reporting district",
@@ -1109,7 +1110,7 @@ let detective_operations_questions_repo = {
         },
     "142": {
             "questionType": "multipleChoice",
-            "question": "What information is recorded in 'Column 6 - Date Original Report'?",
+            "question": "What information is recorded in 'Column 6 - Date Original Report' on Form 03.14.00?",
             "answer1": "The type of crime",
             "answer2": "The DR number",
             "answer3": "The reporting district",
