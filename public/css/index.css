@@ -15,23 +15,23 @@ body{
     background: #fff;
 }
 
+.column{
+  float: left;
+  width: 50%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*Start of container 1*/
 
 #container1{
     width: 100%;
     padding: 4.5rem;
     border-bottom: 4px solid rgb(1,1,65);
-}
-
-.column{
-    float: left;
-    width: 50%;
-}
-
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #container1:after{
@@ -222,6 +222,8 @@ body{
 
 /*End of container 5*/
 
+/*Start of container 6*/
+
 #container6{
     width: 100%;
     padding: 4.5rem;
@@ -252,6 +254,35 @@ body{
     padding: 1%;
 }
 
+#container6_section{
+  margin-top: 5%;
+}
+
+#container6_section img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25px;
+  float: left;
+}
+
+#container6_section p{
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  height: 10rem;
+  background-color: rgb(60, 60, 160);
+  border-radius: 25px;
+  color: #fff;
+  padding: 5%;
+}
+
+#container6_section a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*End of container 6*/
+
 /*Styling for tablet and mobile*/
 
 @media (max-width: 768px) {
@@ -259,37 +290,47 @@ body{
     #container1 {
       padding: 3rem;
     }
+    
     #container1 h1{
         font-size: 3.5rem;
     }
+
     #container1 button{
         margin-bottom: 1rem;
     }
+
     .column {
       width: 100%;
       float: none;
     }
+
     #container1 img {
       width: 100%;
     }
+
     /* styles for container2 */
     #container2 {
       padding: 3rem;
     }
+
     #container2_grid {
       grid-template-columns: repeat(1, 1fr);
     }
+
     /* styles for container3 */
     #container3 {
       padding: 3rem;
     }
+
     #container3_grid {
       grid-template-columns: repeat(2, 1fr);
     }
+
     /* styles for container5 */
     #container5 {
       padding: 3rem;
     }
+
     #container5_grid {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -302,100 +343,159 @@ body{
     #container1 {
       padding: 2rem;
     }
+
     #container1 h1 {
       font-size: 2.5rem;
     }
+
     #container1 p {
       font-size: 16px;
     }
+
     #container1 button {
       margin-top: 1rem;
       font-size: 0.8rem;
       margin-bottom: 1rem;
     }
+
     #container1 img{
       margin-left: 0%;
     }
+
     /* styles for container2 */
     #container2 {
       padding: 2rem;
     }
+
     #container2 h1 {
       font-size: 2.5rem;
     }
+
     #container2 h2 {
       font-size: 1rem;
       margin-bottom: 1rem;
     }
+
     #container2 p {
       padding: 3%;
     }
+
     /* styles for container3 */
     #container3 {
       padding: 2rem;
     }
+
     #container3 h1 {
       font-size: 2.5rem;
     }
+
     #container3 h2 {
       font-size: 1rem;
     }
+
     #container3 h3 {
       font-size: 22px;
       margin-top: 1rem;
     }
+
     #container3 p {
       font-size: 16px;
     }
+
     #container3_grid{
         display: block;
     }
+
     /* styles for container4 */
     #container4 {
       padding: 2rem;
     }
+
     #container4 h1 {
       font-size: 2.5rem;
     }
+
     #container4 h2 {
       font-size: 1rem;
       margin-bottom: 1rem;
     }
+
     #container4 img {
       width: 100%;
       margin-bottom: 1rem;
     }
+
     #container4 h3 {
       font-size: 22px;
     }
+
     #container4 p {
       font-size: 16px;
     }
+
     /* styles for container5 */
     #container5 {
       padding: 2rem;
     }
+
     #container5 h1 {
       font-size: 2.5rem;
     }
+
     #container5 h2 {
       font-size: 1rem;
     }
+
     #container5 h3 {
       font-size: 22px;
       margin-top: 1rem;
     }
+
     #container5 p {
       font-size: 16px;
     }
+
     #container5_grid{
         display: block;
     }
+
     /*styles for container6*/
     #container6 img{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 12rem;
+    }
+
+    #container6_section {
+      margin-top: 5%;
+    }
+    
+    #container6 h1{
+      font-size: 20px;
+    }
+
+    #container6_section img {
+      width: 100%;
+      height: auto;
+      border-radius: 25px;
+      float: left;
+    }
+
+    #container6_section p {
+      font-size: 16px;
+      line-height: 1.4;
+      text-align: center;
+      height: auto;
+      background-color: rgb(60, 60, 160);
+      border-radius: 25px;
+      color: #fff;
+      padding: 3%;
+      margin: 0;
+    }
+    
+    #container6_section a {
+      text-decoration: none;
+      color: inherit;
     }
   }
